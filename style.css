@@ -185,4 +185,33 @@ nav {
 
 .skills li {
   border-bottom: 0.1rem solid #dfe1e6;
+  display: flex;
+  justify-content: space-between;
+}
+
+.langlist {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+}
+
+.langlist li {
+  font-weight: 500;
+  display: inline-flex;
+  gap: 5%;
+  margin: 2% 0%;
+  padding: 0% 5%;
+  border-radius: 8px;
+  background-color: #f7f7f9;
+  text-decoration: none;
+  justify-content: start;
+}
+
+#language {
+  border: none;
+}
+
+.arrow {
+  margin-right: 15%;
 }
