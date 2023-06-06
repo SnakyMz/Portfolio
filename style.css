@@ -66,8 +66,6 @@ nav {
 .workspace {
   margin: 15% 0%;
   display: grid;
-  justify-content: center;
-  align-content: space-around;
 }
 
 .works {
