@@ -220,8 +220,6 @@ nav {
 .contact {
   background-color: white;
   padding-top: 40%;
-  display: flex;
-  justify-content: end;
 }
 
 .form {
@@ -270,6 +268,10 @@ form textarea {
   margin: 3% 8%;
   border: 0.1rem solid #cfd8dc;
   border-radius: 10px;
+}
+
+textarea::placeholder {
+  color: #b3bac5;
 }
 
 #submit {
