@@ -8,6 +8,7 @@ body {
 
 h1 {
   color: #172b4d;
+  font-size: 2rem;
 }
 
 h2 {
@@ -159,7 +160,7 @@ nav {
 }
 
 .outro {
-  margin: 7%;
+  margin: 7% 7% 0 7%;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -214,4 +215,64 @@ nav {
 
 .arrow {
   margin-right: 15%;
+}
+
+.contact {
+  background-color: white;
+  padding-top: 40%;
+  display: flex;
+  justify-content: end;
+}
+
+.form {
+  background-color: #6070ff;
+  border-radius: 70px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-head {
+  color: #fff;
+  margin: 30% 0% 0% 0%;
+  font-size: 2.5rem;
+}
+
+.form p {
+  color: #ebebff;
+  text-align: center;
+  margin: 4% 8% 6% 8%;
+}
+
+#form-background {
+  align-self: self-end;
+  position: absolute;
+  width: 60%;
+  margin: 0%;
+}
+
+form {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form input,
+form textarea {
+  font-family: 'Poppins', sans-serif;
+  color: #b3bac5;
+  font-size: 1rem;
+  padding: 3% 5%;
+  margin: 3% 8%;
+  border: 0.1rem solid #cfd8dc;
+  border-radius: 10px;
+}
+
+#submit {
+  width: 40%;
+  margin: 5% 8% 10% 8%;
 }
