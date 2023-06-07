@@ -259,6 +259,10 @@ nav {
   margin: 5% 0%;
 }
 
+#form-desktop {
+  display: none;
+}
+
 .formtemp {
   display: flex;
   flex-direction: column;
@@ -340,7 +344,7 @@ textarea::placeholder {
     display: block;
     width: 100%;
     margin: 0%;
-    padding: 0%;
+    padding: 10%;
   }
 
   #headnextline {
@@ -465,5 +469,43 @@ textarea::placeholder {
     padding: 8%;
     font-size: 1.3rem;
     margin: 0%;
+  }
+
+  #contact {
+    padding-top: 10%;
+  }
+
+  .form {
+    padding: 5% 7%;
+    border-radius: 10rem 0 0 0;
+  }
+
+  #form-background {
+    display: none;
+  }
+
+  #form-desktop {
+    display: block;
+    width: 100%;
+  }
+
+  .formtemp {
+    width: 40%;
+  }
+
+  .formtemp p {
+    font-size: 1.2rem;
+    margin: 5% 0;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  #submit {
+    align-self: center;
+    font-size: 1rem;
+    width: auto;
+    margin: 5% 0;
   }
 }
