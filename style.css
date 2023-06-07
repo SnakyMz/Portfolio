@@ -34,8 +34,20 @@ nav {
   margin: 3%;
 }
 
+.menu-items {
+  display: none;
+}
+
 #head-background {
   width: 100%;
+}
+
+#head-desktop {
+  display: none;
+}
+
+#headnextline {
+  display: none;
 }
 
 .intro {
@@ -43,12 +55,12 @@ nav {
   margin: 10%;
 }
 
-.headline {
+#headline {
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 0 0 0 70px;
+  border-radius: 0 0 0 5rem;
 }
 
 #connect {
@@ -63,7 +75,7 @@ nav {
   list-style: none;
 }
 
-.workspace {
+#workspace {
   margin: 15% 0%;
   display: grid;
 }
@@ -75,7 +87,7 @@ nav {
   background-color: white;
   margin: 12% 5%;
   padding: 1rem;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .workimage {
@@ -125,13 +137,13 @@ nav {
 .see-project {
   background-color: white;
   color: #6070ff;
-  padding: 4%;
+  padding: 3%;
   margin: 7% 0% 2% 0%;
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   letter-spacing: 0.05rem;
-  border: 0.1em solid #7f8cff;
+  border: 0.1rem solid #7f8cff;
   border-radius: 8px;
 }
 
@@ -152,9 +164,9 @@ nav {
   border-color: #c1c7d0;
 }
 
-.about {
+#about {
   background-color: white;
-  border-radius: 0 70px 0 0;
+  border-radius: 0 5rem 0 0;
 }
 
 .outro {
@@ -215,14 +227,14 @@ nav {
   margin-right: 15%;
 }
 
-.contact {
+#contact {
   background-color: white;
   padding-top: 40%;
 }
 
 .form {
   background-color: #6070ff;
-  border-radius: 70px 0 0 0;
+  border-radius: 5rem 0 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -231,21 +243,28 @@ nav {
 
 .form-head {
   color: #fff;
-  margin: 30% 0% 0% 0%;
+  margin: 15% 0% 0% 0%;
   font-size: 2.5rem;
 }
 
 .form p {
   color: #ebebff;
   text-align: center;
-  margin: 4% 8% 6% 8%;
+  margin: 5% 8% 8% 8%;
 }
 
 #form-background {
   align-self: self-end;
-  position: absolute;
   width: 60%;
-  margin: 0%;
+  margin: 5% 0%;
+}
+
+.formtemp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
 }
 
 form {
@@ -263,7 +282,7 @@ form textarea {
   color: #b3bac5;
   font-size: 1rem;
   padding: 3% 5%;
-  margin: 3% 8%;
+  margin: 2% 8%;
   border: 0.1rem solid #cfd8dc;
   border-radius: 10px;
 }
@@ -274,5 +293,68 @@ textarea::placeholder {
 
 #submit {
   width: 40%;
-  margin: 5% 8% 10% 8%;
+  margin: 5% 8% 5% 8%;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  #logo {
+    font-size: 2rem;
+    margin: 3% 7% 3% 10%;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .menu-items {
+    list-style: none;
+    display: inline-flex;
+    margin: 3% 10%;
+    gap: 5rem;
+  }
+
+  .menu-items a {
+    text-decoration: none;
+    color: #344563;
+    font-weight: 500;
+  }
+
+  #headline {
+    border-radius: 0 0 0 10rem;
+  }
+
+  #head-background {
+    display: none;
+  }
+
+  #head-desktop {
+    display: block;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  #headnextline {
+    display: block;
+  }
+
+  .slinks {
+    gap: 2%;
+  }
+
+  .slinks img {
+    height: 2rem;
+  }
+
+  .intro {
+    margin: 10% 20%;
+  }
 }
