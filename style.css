@@ -84,7 +84,7 @@ nav {
 .slinks {
   display: flex;
   padding: 0%;
-  gap: 5%;
+  gap: 1rem;
   list-style: none;
 }
 
@@ -201,10 +201,6 @@ nav {
 .outro-head {
   margin-top: 30%;
   font-size: 2.2rem;
-}
-
-.olinks {
-  gap: 15%;
 }
 
 .skills {
@@ -373,7 +369,7 @@ textarea::placeholder {
   }
 
   .slinks {
-    gap: 2%;
+    gap: 2rem;
   }
 
   .slinks img {
@@ -478,10 +474,6 @@ textarea::placeholder {
 
   .outro p {
     font-size: 1.25rem;
-  }
-
-  .olinks {
-    gap: 20%;
   }
 
   .olinks img {
