@@ -88,6 +88,10 @@ nav {
   list-style: none;
 }
 
+.slinks img:hover {
+  transform: scale(150%);
+}
+
 #workspace {
   margin: 15% 0%;
   display: grid;
