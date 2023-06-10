@@ -166,6 +166,7 @@ nav {
   letter-spacing: 0.05rem;
   border: 0.1rem solid #7f8cff;
   border-radius: 8px;
+  transition: all 0.5s ease-out;
 }
 
 .see-project:hover {
@@ -401,6 +402,11 @@ textarea::placeholder {
   .deskimg {
     display: block;
     width: 100%;
+    transition: all 2s;
+  }
+
+  .deskimg:hover {
+    transform: scale(130%);
   }
 
   .alt {
