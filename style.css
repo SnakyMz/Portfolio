@@ -28,6 +28,19 @@ nav {
   font-weight: 700;
   color: #6070ff;
   margin: 7%;
+  animation-name: spin;
+  animation-duration: 2s;
+  text-decoration: none;
+}
+
+@keyframes spin {
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 360deg;
+  }
 }
 
 #menu {
@@ -71,8 +84,12 @@ nav {
 .slinks {
   display: flex;
   padding: 0%;
-  gap: 5%;
+  gap: 1rem;
   list-style: none;
+}
+
+.slinks img:hover {
+  transform: scale(150%);
 }
 
 #workspace {
@@ -149,6 +166,7 @@ nav {
   letter-spacing: 0.05rem;
   border: 0.1rem solid #7f8cff;
   border-radius: 8px;
+  transition: all 0.5s ease-out;
 }
 
 .see-project:hover {
@@ -184,10 +202,6 @@ nav {
 .outro-head {
   margin-top: 30%;
   font-size: 2.2rem;
-}
-
-.olinks {
-  gap: 15%;
 }
 
 .skills {
@@ -356,7 +370,7 @@ textarea::placeholder {
   }
 
   .slinks {
-    gap: 2%;
+    gap: 2rem;
   }
 
   .slinks img {
@@ -388,6 +402,11 @@ textarea::placeholder {
   .deskimg {
     display: block;
     width: 100%;
+    transition: all 2s;
+  }
+
+  .deskimg:hover {
+    transform: scale(130%);
   }
 
   .alt {
@@ -461,10 +480,6 @@ textarea::placeholder {
 
   .outro p {
     font-size: 1.25rem;
-  }
-
-  .olinks {
-    gap: 20%;
   }
 
   .olinks img {
