@@ -15,13 +15,6 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -60,49 +53,7 @@ HTML and CSS
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Coming soon
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-A code editor and github account
-
-### Setup
-
-Clone this repository to your desired folder:
-
-git clone https://github.com/SnakyMz/Portfolio.git
-
-### Install
-
-Install this project with:
-
-Creating a new repository and connecting to it
-
-### Usage
-
-To run the project, execute the following command:
-
-Copy index.html path to your web browser
-
-### Run tests
-
-To run tests, run the following command:
-
-Copy index.html path to your web browser
-
-### Deployment
-
-You can deploy this project using:
-
-Hosting it on the web using github
+- "https://snakymz.github.io/Portfolio/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,17 +61,17 @@ Hosting it on the web using github
 
 👤 Soban Syeed
 
-- GitHub: [@githubhandle](https://github.com/SnakyMz)
-- Twitter: [@twitterhandle](https://twitter.com/SobanSyeed)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/soban-syeed-82985b241/)
+- GitHub: [@SnakyMz](https://github.com/SnakyMz)
+- Twitter: [@SobanSyeed](https://twitter.com/SobanSyeed)
+- LinkedIn: [@SobanSyeed](https://www.linkedin.com/in/soban-syeed-82985b241/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Projects section
-- [ ] Skills section
-- [ ] Contact section
+- [ ] Working Projects section
+- [ ] Working Skills section
+- [ ] Custom Logo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,13 +83,13 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please send me your feedback
+If you like this project please send me your feedback.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse
+I would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
