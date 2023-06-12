@@ -59,10 +59,6 @@ nav {
   display: none;
 }
 
-#headnextline {
-  display: none;
-}
-
 .intro {
   position: absolute;
   margin: 10%;
@@ -363,10 +359,6 @@ textarea::placeholder {
     width: 100%;
     margin: 5%;
     padding: 0%;
-  }
-
-  #headnextline {
-    display: block;
   }
 
   .slinks {
