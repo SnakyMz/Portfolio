@@ -188,8 +188,12 @@
                     <p>If you have an application you are interested in developing, a feature that you need built or a
                         project that needs coding. I’d love to help with it!</p>
                     <form action="https://formspree.io/f/mayzgpbp" method="POST">
-                        <input type="text" name="fullname" maxlength="30" placeholder="Lorem Ipsum" required>
-                        <input type="email" name="email" placeholder="loremipsum@gmail.com" required>
+                        <label for="fullname"></label>
+                        <input type="text" name="fullname" id="fullname" maxlength="30" placeholder="Lorem Ipsum"
+                            required>
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="loremipsum@gmail.com" required>
+                        <label for="message"></label>
                         <textarea name="message" id="message" placeholder="Write your message here..." cols="30"
                             maxlength="500" rows="6" required></textarea>
                         <button type="submit" id="submit" class="see-project">Get in touch</button>
