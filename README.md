@@ -65,6 +65,11 @@ HTML and CSS
 - Twitter: [@SobanSyeed](https://twitter.com/SobanSyeed)
 - LinkedIn: [@SobanSyeed](https://www.linkedin.com/in/soban-syeed-82985b241/)
 
+👤 Aderounmu Adeniyi
+
+- Github: [@Godedict](https://github.com/godedict)
+- Likedin: [@AdeniyiAderounmu](https://www.linkedin.com/in/adeniyi-aderounmu-a03463111/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
