@@ -4,7 +4,7 @@
   <img src="./images/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio</b></h3>
+  <h3><b>Soban's Portfolio</b></h3>
 
 </div>
 
@@ -25,7 +25,7 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-**Portfolio** is a website designed to showcase my skills and projects.
+**Soban's Portfolio** is a website designed to showcase my skills and projects.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,7 +49,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Portfolio Link](https://snakymz.github.io/Portfolio/)
+- [Soban's Portfolio Link](https://snakymz.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
