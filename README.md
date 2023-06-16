@@ -26,7 +26,7 @@
 # 📖 Portfolio <a name="about-project"></a>
 
 **Soban's Portfolio** is a website designed to showcase my skills and projects.
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/56bf32313d954a2fa2e4a6aec6757ccb?sid=8d6e74aa-e216-4fb3-bcbb-145fb0d96373" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<video src="https://www.loom.com/share/56bf32313d954a2fa2e4a6aec6757ccb?t=225&sid=49660378-ff81-462b-acd9-0a936e374a6e">Quick Overview</video>
 
 ## 🛠 Built With <a name="built-with"></a>
 
