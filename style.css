@@ -426,6 +426,32 @@ textarea::placeholder {
     border-radius: 2rem;
   }
 
+  .pop-work {
+    align-items: normal;
+    margin: 5% 10%;
+    padding: 3%;
+    z-index: 3;
+  }
+
+  .pop-head h2 {
+    font-size: 3rem;
+  }
+
+  .pop-bottom {
+    display: inline-flex;
+    gap: 3%;
+  }
+
+  .pop-bottom p {
+    width: 70%;
+    margin-top: 4%;
+    margin-bottom: 10%;
+  }
+
+  .pop-side {
+    margin-top: 4%;
+  }
+
   .workimage {
     display: none;
   }
