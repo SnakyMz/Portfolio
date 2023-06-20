@@ -56,11 +56,13 @@
 
         <section id="workspace">
 
-            <div class="works">
-                <img src="./images/Snapshoot Portfolio.svg" alt="Tonic" class="workimage">
-                <img src="./images/Snapshoot Portfolio 1.svg" alt="Nature chart" class="deskimg">
-                <div class="worktext">
-                    <h2>Tonic</h2>
+            <div class="pop-work">
+                <div class="popcard">
+                    <div class="pop-head">
+                        <h2>Tonic</h2>
+                        <img src="./images/X-popup.svg" alt="close button">
+                    </div>
+
                     <div class="desc">
                         <p class="descA">CANOPY</p>
                         <img src="./images/Counter.svg" alt="counter">
@@ -68,93 +70,28 @@
                         <img src="./images/Counter.svg" alt="counter">
                         <p class="grey">2015</p>
                     </div>
+                    <img src="./images/Snapshoot Portfolio.svg" alt="Tonic" class="workimage">
+                    <img src="./images/Snapshoot Portfolio 1.svg" alt="Nature chart" class="deskimg">
+                </div>
+                <div>
                     <p class="workdesc">A daily selection of privately personalized reads; no accounts or sign-ups
                         required.
                     </p>
+                </div>
+                <div class="pop-bottom">
                     <ul class="langs">
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
                     </ul>
-                    <button type="button" class="see-project">See project</button>
-                </div>
-            </div>
-
-            <div class="works alt">
-                <img src="./images/Snapshoot Portfolio (1).svg" alt="Multi-Post" class="workimage">
-                <img src="./images/Snapshoot Portfolio 2.svg" alt="Professional Printing" class="deskimg">
-                <div class="worktext">
-                    <h2>Multi-Post Stories</h2>
-                    <div class="desc">
-                        <p class="descA">FACEBOOK</p>
-                        <img src="./images/Counter.svg" alt="counter">
-                        <p class="grey">Full Stack Dev</p>
-                        <img src="./images/Counter.svg" alt="counter">
-                        <p class="grey">2015</p>
+                    <div class="live-code">
+                        <button type="button" class="btn lbtn">See live<img src="./images/live-icon.svg"
+                                alt="live icon"></button>
+                        <button type="button" class="btn sbtn">See source<img src="./images/code-icon.svg"
+                                alt="Github icon"></button>
                     </div>
-                    <p class="workdesc">Experimental content creation feature that allows users to add to an existing
-                        story over the course of a day without spamming their friends.
-                    </p>
-                    <ul class="langs">
-                        <li>HTML</li>
-                        <li>Ruby on Rails</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                    <button type="button" class="see-project">See project</button>
                 </div>
             </div>
-
-            <div class="works">
-                <img src="./images/Snapshoot Portfolio (2).svg" alt="Tonic" class="workimage">
-                <img src="./images/Snapshoot Portfolio 3.svg" alt="Facebook 360" class="deskimg">
-                <div class="worktext">
-                    <h2>Facebook 360</h2>
-                    <div class="desc">
-                        <p class="descA">FACEBOOK</p>
-                        <img src="./images/Counter.svg" alt="counter">
-                        <p class="grey">Full Stack Dev</p>
-                        <img src="./images/Counter.svg" alt="counter">
-                        <p class="grey">2015</p>
-                    </div>
-                    <p class="workdesc">Exploring the future of media in Facebook's first Virtual Reality app; a place
-                        to discover and enjoy 360 photos and videos on Gear VR.
-                    </p>
-                    <ul class="langs">
-                        <li>HTML</li>
-                        <li>Ruby on Rails</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                    <button type="button" class="see-project">See project</button>
-                </div>
-            </div>
-
-            <div class="works alt">
-                <img src="./images/Snapshoot Portfolio (3).svg" alt="Multi-Post" class="workimage">
-                <img src="./images/Snapshoot Portfolio 4.svg" alt="Uber Navigation" class="deskimg">
-                <div class="worktext">
-                    <h2>Uber Navigation</h2>
-                    <div class="desc">
-                        <p class="descA">Uber</p>
-                        <img src="./images/Counter.svg" alt="counter">
-                        <p class="grey">Lead Developer</p>
-                        <img src="./images/Counter.svg" alt="counter">
-                        <p class="grey">2018</p>
-                    </div>
-                    <p class="workdesc">A smart assistant to make driving more safe, efficient, and fun by unlocking
-                        your most expensive computer: your car.
-                    </p>
-                    <ul class="langs">
-                        <li>HTML</li>
-                        <li>Ruby on Rails</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                    <button type="button" class="see-project">See project</button>
-                </div>
-            </div>
-
         </section>
 
         <section id="about">
@@ -177,7 +114,7 @@
                         <li><a href=""><img src="./images/Vector (3).svg" alt="AngelList"></a></li>
                     </ul>
                 </div>
-                <button type="button" class="see-project">Get my resume</button>
+                <button type="button" class="btn">Get my resume</button>
             </div>
 
             <div class="outro outro-in">
@@ -210,14 +147,14 @@
                     <label for="message"></label>
                     <textarea name="message" id="message" placeholder="Write your message here..." cols="30"
                         maxlength="500" rows="6" required></textarea>
-                    <button type="submit" id="submit" class="see-project">Get in touch</button>
+                    <button type="submit" id="submit" class="btn">Get in touch</button>
                 </form>
             </div>
         </section>
 
     </main>
 
-    <script src="./index.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
