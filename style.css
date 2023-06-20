@@ -45,6 +45,7 @@ nav {
 }
 
 #menu {
+  z-index: 2;
   margin: 3%;
 }
 
@@ -52,20 +53,38 @@ nav {
   display: none;
 }
 
-#head-background {
-  width: 100%;
+.pop-menu {
+  display: none;
+  position: absolute;
+  backdrop-filter: blur(0.5rem);
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 20% 0 0 10%;
+  list-style: none;
 }
 
-#head-desktop {
-  display: none;
+.pop-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3.5rem;
 }
 
 .intro {
-  position: absolute;
-  margin: 10%;
+  margin: 20% 8%;
 }
 
 #headline {
+  background-image: url(./images/header-shapes\ mobile.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -247,47 +266,34 @@ nav {
   padding-top: 40%;
 }
 
-.form {
+.form-head {
+  color: #fff;
+  margin: 15% 0% 0% 0%;
+  font-size: 2.2rem;
+}
+
+.formtemp {
+  background-image: url(./images/contact\ form\ shapes-mobile.svg);
+  background-position: right;
+  background-repeat: no-repeat;
   background-color: #6070ff;
+  background-size: contain;
   border-radius: 5rem 0 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10% 0;
 }
 
-.form-head {
-  color: #fff;
-  margin: 15% 0% 0% 0%;
-  font-size: 2.5rem;
-}
-
-.form p {
+.formtemp p {
   color: #ebebff;
   text-align: center;
   margin: 5% 8% 8% 8%;
 }
 
-#form-background {
-  align-self: self-end;
-  width: 60%;
-  margin: 5% 0%;
-}
-
-#form-desktop {
-  display: none;
-}
-
-.formtemp {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-}
-
 form {
-  width: 100%;
+  width: 90%;
   margin: 0%;
   padding: 0%;
   display: flex;
@@ -347,19 +353,12 @@ textarea::placeholder {
   }
 
   #headline {
+    background-image: url(./images/Header\ bg\ front.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
     border-radius: 0 0 0 10rem;
     margin-bottom: 10%;
-  }
-
-  #head-background {
-    display: none;
-  }
-
-  #head-desktop {
-    display: block;
-    width: 100%;
-    margin: 5%;
-    padding: 0%;
   }
 
   .slinks {
@@ -448,6 +447,7 @@ textarea::placeholder {
   .see-project {
     font-size: 1.5rem;
     padding: 2%;
+    border-radius: 0.9rem;
   }
 
   #about {
@@ -507,37 +507,38 @@ textarea::placeholder {
     padding-top: 10%;
   }
 
-  .form {
-    padding: 5% 7%;
+  .formtemp {
+    background-image: url(./images/contact\ form\ background\ shapes.svg);
+    background-position: center;
+    background-size: 90%;
+    width: 100%;
+    padding: 0;
     border-radius: 10rem 0 0 0;
   }
 
-  #form-background {
-    display: none;
-  }
-
-  #form-desktop {
-    display: block;
-    width: 100%;
-  }
-
-  .formtemp {
-    width: 40%;
+  .formtemp h2 {
+    margin-top: 10%;
   }
 
   .formtemp p {
     font-size: 1.2rem;
-    margin: 5% 0;
+    margin: 2% 0;
+    width: 40%;
   }
 
   form {
-    width: 90%;
+    width: 40%;
+  }
+
+  form input,
+  form textarea {
+    font-size: 1.3rem;
+    padding: 2% 3%;
   }
 
   #submit {
     align-self: center;
-    font-size: 1rem;
-    width: auto;
-    margin: 5% 0;
+    width: 25%;
+    margin: 4% 0 20% 0;
   }
 }

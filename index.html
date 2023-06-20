@@ -12,6 +12,13 @@
 <body>
 
     <header>
+        <div>
+            <ul class="pop-menu">
+                <li><a href="#workspace">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
         <nav>
             <a href="" id="logo">My Logo</a>
             <ul class="menu-items">
@@ -26,8 +33,6 @@
     <main>
 
         <section id="headline">
-            <img src="./images/header-shapes mobile.svg" alt="background" id="head-background">
-            <img src="./images/Header bg front.svg" alt="background" id="head-desktop">
             <div class="intro">
                 <h1>I'm Soban.<br> Glad to see you!</h1>
                 <p>I'm a software developer! I can help you build a product , feature or website Look through some of my
@@ -193,30 +198,26 @@
         </section>
 
         <section id="contact">
-            <div class="form">
-                <img src="./images/contact form shapes-mobile.svg" alt="background" id="form-background">
-                <img src="./images/contact form background shapes.svg" alt="background" id="form-desktop">
-                <div class="formtemp">
-                    <h2 class="form-head">Contact me</h2>
-                    <p>If you have an application you are interested in developing, a feature that you need built or a
-                        project that needs coding. I'd love to help with it!</p>
-                    <form action="https://formspree.io/f/mayzgpbp" method="POST">
-                        <label for="fullname"></label>
-                        <input type="text" name="fullname" id="fullname" maxlength="30" placeholder="Lorem Ipsum"
-                            required>
-                        <label for="email"></label>
-                        <input type="email" name="email" id="email" placeholder="loremipsum@gmail.com" required>
-                        <label for="message"></label>
-                        <textarea name="message" id="message" placeholder="Write your message here..." cols="30"
-                            maxlength="500" rows="6" required></textarea>
-                        <button type="submit" id="submit" class="see-project">Get in touch</button>
-                    </form>
-                </div>
+            <div class="formtemp">
+                <h2 class="form-head">Contact me</h2>
+                <p>If you have an application you are interested in developing, a feature that you need built or a
+                    project that needs coding. I'd love to help with it!</p>
+                <form action="https://formspree.io/f/mayzgpbp" method="POST">
+                    <label for="fullname"></label>
+                    <input type="text" name="fullname" id="fullname" maxlength="30" placeholder="Lorem Ipsum" required>
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="loremipsum@gmail.com" required>
+                    <label for="message"></label>
+                    <textarea name="message" id="message" placeholder="Write your message here..." cols="30"
+                        maxlength="500" rows="6" required></textarea>
+                    <button type="submit" id="submit" class="see-project">Get in touch</button>
+                </form>
             </div>
         </section>
 
     </main>
 
+    <script src="./index.js"></script>
 </body>
 
 </html>

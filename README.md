@@ -68,6 +68,11 @@
 - Github: [@Godedict](https://github.com/godedict)
 - Likedin: [Adeniyi Aderounmu](https://www.linkedin.com/in/adeniyi-aderounmu-a03463111/)
 
+👤 **Derek Akrasi Konadu**
+
+- GitHub: [@obibaadoma](https://github.com/obibaadoma/)
+- LinkedIn: [Derek Akrasi Konadu](https://www.linkedin.com/in/derek-akrasi-konadu-187453151/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -104,7 +109,7 @@ I would like to thank Microverse.
 
   - Figma
 
-- **Will you include javascript?**
+- **Will you include more animations?**
 
   - Maybe
 
