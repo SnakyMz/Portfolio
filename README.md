@@ -109,7 +109,7 @@ I would like to thank Microverse.
 
   - Figma
 
-- **Will you include javascript?**
+- **Will you include more animations?**
 
   - Maybe
 
