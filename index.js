@@ -16,7 +16,7 @@ function poping() {
 menu.addEventListener('click', poping);
 
 const menus = document.querySelectorAll('.pop-menu a');
-for (let i = 0; i < menus.length; i++) {
+for (let i = 0; i < menus.length; i += 1) {
   menus[i].addEventListener('click', () => {
     poping();
   });
