@@ -94,6 +94,50 @@ const projects = [
   },
 ];
 
+const popup = document.querySelector('.overlay');
+const closePopup = document.querySelector('#closebtn');
+const subDesc = document.querySelector('#popsubdesc');
+const workImg = document.querySelector('#popMimg');
+const deskImg = document.querySelector('#popDimg');
+const popupTitle = document.querySelector('#poptitle');
+const popupContent = document.querySelector('.pop-work');
+const skillsDiv = document.querySelector('#poplangs');
+const workDesc = document.querySelector('#popdesc');
+const liveBtn = document.querySelector('#livebtn');
+const sourceBtn = document.querySelector('#codebtn');
+
+const generatePopup = (index) => {
+  skillsDiv.innerHTML = '';
+  popupTitle.innerText = projects[index].name;
+  workImg.src = projects[index].mobileImage;
+  deskImg.src = projects[index].desktopImage;
+  workDesc.innerText = projects[index].description;
+  projects[index].technologies.forEach((skill) => {
+    const li = document.createElement('li');
+    li.innerText = skill;
+    skillsDiv.appendChild(li);
+  });
+  subDesc.innerHTML = `
+  <p class="descA">${projects[index].company}</p>
+  <img src="./images/Counter.svg" alt="counter">
+  <p class="grey">${projects[index].stack}</p>
+  <img src="./images/Counter.svg" alt="counter">
+  <p class="grey">${projects[index].year}</p>
+  `;
+  liveBtn.href = projects[index].liveVersionLink;
+  sourceBtn.href = projects[index].SourceLink;
+};
+const windowPop = (index) => {
+  popupContent.style.display = 'block';
+  popup.style.display = 'block';
+  generatePopup(index);
+};
+
+closePopup.addEventListener('click', () => {
+  popupContent.style.display = 'none';
+  popup.style.display = 'none';
+});
+
 const workspace = document.querySelector('#workspace');
 const generateProjects = () => {
   projects.forEach((work, index) => {
@@ -147,47 +191,3 @@ const generateProjects = () => {
 window.onload = () => {
   generateProjects();
 };
-
-const popup = document.querySelector('.overlay');
-const closePopup = document.querySelector('#closebtn');
-const subDesc = document.querySelector('#popsubdesc');
-const workImg = document.querySelector('#popMimg');
-const deskImg = document.querySelector('#popDimg');
-const popupTitle = document.querySelector('#poptitle');
-const popupContent = document.querySelector('.pop-work');
-const skillsDiv = document.querySelector('#poplangs');
-const workDesc = document.querySelector('#popdesc');
-const liveBtn = document.querySelector('#livebtn');
-const sourceBtn = document.querySelector('#codebtn');
-
-const generatePopup = (index) => {
-  skillsDiv.innerHTML = '';
-  popupTitle.innerText = projects[index].name;
-  workImg.src = projects[index].mobileImage;
-  deskImg.src = projects[index].desktopImage;
-  workDesc.innerText = projects[index].description;
-  projects[index].technologies.forEach((skill) => {
-    const li = document.createElement('li');
-    li.innerText = skill;
-    skillsDiv.appendChild(li);
-  });
-  subDesc.innerHTML = `
-  <p class="descA">${projects[index].company}</p>
-  <img src="./images/Counter.svg" alt="counter">
-  <p class="grey">${projects[index].stack}</p>
-  <img src="./images/Counter.svg" alt="counter">
-  <p class="grey">${projects[index].year}</p>
-  `;
-  liveBtn.href = projects[index].liveVersionLink;
-  sourceBtn.href = projects[index].SourceLink;
-};
-const windowPop = (index) => {
-  popupContent.style.display = 'block';
-  popup.style.display = 'block';
-  generatePopup(index);
-};
-
-closePopup.addEventListener('click', () => {
-popupContent.style.display = 'none';
-popup.style.display = 'none';
-});
