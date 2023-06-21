@@ -136,6 +136,7 @@ nav {
   padding: 1rem;
   border-radius: 1rem;
   z-index: 3;
+  display: none;
 }
 
 .workimage {
@@ -161,6 +162,7 @@ nav {
   mix-blend-mode: multiply;
   backdrop-filter: blur(0.5rem);
   background-color: #c1c7d0;
+  display: none;
 }
 
 .deskimg {

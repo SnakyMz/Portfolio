@@ -30,7 +30,7 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     mobileImage: './images/Snapshoot Portfolio.svg',
     desktopImage: './images/Snapshoot Portfolio 1.svg',
-    languages: [
+    technologies: [
       'HTML',
       'CSS',
       'JavaScript',
@@ -46,7 +46,7 @@ const projects = [
     description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     mobileImage: './images/Snapshoot Portfolio (1).svg',
     desktopImage: './images/Snapshoot Portfolio 2.svg',
-    languages: [
+    technologies: [
       'HTML',
       'Ruby on Rails',
       'CSS',
@@ -63,7 +63,7 @@ const projects = [
     description: 'Exploring the future of media in Facebook\'s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     mobileImage: './images/Snapshoot Portfolio (2).svg',
     desktopImage: './images/Snapshoot Portfolio 3.svg',
-    languages: [
+    technologies: [
       'HTML',
       'Ruby on Rails',
       'CSS',
@@ -80,7 +80,7 @@ const projects = [
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     mobileImage: './images/Snapshoot Portfolio (3).svg',
     desktopImage: './images/Snapshoot Portfolio 4.svg',
-    languages: [
+    technologies: [
       'HTML',
       'Ruby on Rails',
       'CSS',
@@ -96,7 +96,7 @@ const projects = [
 
 const workspace = document.querySelector('#workspace');
 const generateProjects = () => {
-  projects.map((work, index) => {
+  projects.forEach((work, index) => {
     const works = document.createElement('div');
     works.className = 'works';
     if (index % 2 === 0) {
@@ -125,11 +125,10 @@ const generateProjects = () => {
 
     const langs = document.createElement('ul');
     langs.className = 'langs';
-    work.languages.map((lang) => {
+    work.technologies.forEach((lang) => {
       const li = document.createElement('li');
       li.innerHTML = lang;
       langs.appendChild(li);
-      return null;
     });
     worktext.appendChild(langs);
 
@@ -137,14 +136,48 @@ const generateProjects = () => {
     seeProject.innerHTML = 'See project';
     seeProject.className = 'see-project btn';
     seeProject.type = 'button';
+    seeProject.addEventListener('click', () => windowPop(index));
     worktext.appendChild(seeProject);
 
     works.appendChild(worktext);
     workspace.appendChild(works);
-    return null;
   });
 };
 
 window.onload = () => {
   generateProjects();
+};
+
+const popup = document.querySelector('.overlay');
+const closePopup = document.querySelector('#closebtn');
+const subDesc = document.querySelector('#popsubdesc');
+const workImg = document.querySelector('#popMimg');
+const deskImg = document.querySelector('#popDimg');
+const popupTitle = document.querySelector('#poptitle');
+const popupContent = document.querySelector('.pop-work');
+const skillsDiv = document.querySelector('#poplangs');
+const workDesc = document.querySelector('#popdesc');
+const liveBtn = document.querySelector('#livebtn');
+const sourceBtn = document.querySelector('#codebtn');
+
+const generatePopup = (index) => {
+  skillsDiv.innerHTML = '';
+  popupTitle.innerText = projects[index].name;
+  workImg.src = projects[index].mobileImage;
+  deskImg.src = projects[index].desktopImage;
+  workDesc.innerText = projects[index].description;
+  projects[index].technologies.forEach((skill) => {
+    const li = document.createElement('li');
+    li.innerText = skill;
+    skillsDiv.appendChild(li);
+  });
+  subDesc.innerHTML = `
+  <p class="descA">${projects[index].company}</p>
+  <img src="./images/Counter.svg" alt="counter">
+  <p class="grey">${projects[index].stack}</p>
+  <img src="./images/Counter.svg" alt="counter">
+  <p class="grey">${projects[index].year}</p>
+  `;
+  liveBtn.href = projects[index].liveVersionLink;
+  sourceBtn.href = projects[index].SourceLink;
 };
