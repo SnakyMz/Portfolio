@@ -181,3 +181,13 @@ const generatePopup = (index) => {
   liveBtn.href = projects[index].liveVersionLink;
   sourceBtn.href = projects[index].SourceLink;
 };
+const windowPop = (index) => {
+  popupContent.style.display = 'block';
+  popup.style.display = 'block';
+  generatePopup(index);
+};
+
+closePopup.addEventListener('click', () => {
+popupContent.style.display = 'none';
+popup.style.display = 'none';
+});
