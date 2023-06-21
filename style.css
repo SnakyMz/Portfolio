@@ -124,13 +124,26 @@ nav {
 }
 
 .pop-work {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: start;
   background-color: white;
-  margin: 12% 5%;
   padding: 1rem;
   border-radius: 1rem;
+  z-index: 3;
+}
+
+.workimage {
+  width: 100%;
+}
+
+.pop-card .workimage {
+  max-height: 10rem;
 }
 
 .pop-head {
@@ -139,8 +152,15 @@ nav {
   width: 100%;
 }
 
-.workimage {
-  width: 100%;
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(0.5rem);
+  background-color: #c1c7d0;
 }
 
 .deskimg {
@@ -428,24 +448,37 @@ textarea::placeholder {
 
   .pop-work {
     align-items: normal;
-    margin: 5% 10%;
-    padding: 3%;
+    padding: 2%;
     z-index: 3;
   }
 
   .pop-head h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
-  .pop-bottom {
-    display: inline-flex;
-    gap: 3%;
+  .outro p {
+    font-size: 1.25rem;
+  }
+
+  .formtemp p {
+    font-size: 1.2rem;
+    margin: 2% 0;
+    width: 40%;
   }
 
   .pop-bottom p {
     width: 70%;
     margin-top: 4%;
     margin-bottom: 10%;
+  }
+
+  .pop-card .desc p {
+    font-size: 1.2rem;
+  }
+
+  .pop-bottom {
+    display: inline-flex;
+    gap: 3%;
   }
 
   .pop-side {
@@ -464,6 +497,14 @@ textarea::placeholder {
 
   .deskimg:hover {
     transform: scale(130%);
+  }
+
+  .pop-card .deskimg {
+    max-height: 30rem;
+  }
+
+  .pop-card .deskimg:hover {
+    transform: none;
   }
 
   .alt {
@@ -536,10 +577,6 @@ textarea::placeholder {
     font-size: 2.5rem;
   }
 
-  .outro p {
-    font-size: 1.25rem;
-  }
-
   .olinks img {
     width: 1.8rem;
   }
@@ -583,12 +620,6 @@ textarea::placeholder {
 
   .formtemp h2 {
     margin-top: 10%;
-  }
-
-  .formtemp p {
-    font-size: 1.2rem;
-    margin: 2% 0;
-    width: 40%;
   }
 
   form {
