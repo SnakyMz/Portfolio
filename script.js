@@ -204,3 +204,30 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+const fullname = document.querySelector('#fullname');
+const message = document.querySelector('#message');
+
+const inputData = {};
+const storage = window.localStorage;
+
+fullname.addEventListener('change', () => {
+  inputData.fullname = fullname.value;
+  inputData.email = email.value;
+  inputData.message = message.value;
+  storage.setItem('formData', JSON.stringify(inputData));
+});
+
+email.addEventListener('change', () => {
+  inputData.fullname = fullname.value;
+  inputData.email = email.value;
+  inputData.message = message.value;
+  storage.setItem('formData', JSON.stringify(inputData));
+});
+
+message.addEventListener('change', () => {
+  inputData.fullname = fullname.value;
+  inputData.email = email.value;
+  inputData.message = message.value;
+  storage.setItem('formData', JSON.stringify(inputData));
+});
