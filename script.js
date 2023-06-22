@@ -204,3 +204,29 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+const fullname = document.querySelector('#fullname');
+const message = document.querySelector('#message');
+
+const inputData = {};
+const storage = window.localStorage;
+
+const formUpdate = () => {
+  inputData.fullname = fullname.value;
+  inputData.email = email.value;
+  inputData.message = message.value;
+  storage.setItem('formData', JSON.stringify(inputData));
+};
+
+fullname.addEventListener('change', formUpdate);
+email.addEventListener('change', formUpdate);
+message.addEventListener('change', formUpdate);
+
+function populateForm() {
+  const parsingData = storage.getItem('formData');
+  const outputData = JSON.parse(parsingData);
+  fullname.value = outputData.fullname;
+  email.value = outputData.email;
+  message.value = outputData.message;
+}
+populateForm();
