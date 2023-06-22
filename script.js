@@ -231,3 +231,12 @@ message.addEventListener('change', () => {
   inputData.message = message.value;
   storage.setItem('formData', JSON.stringify(inputData));
 });
+
+function populateForm() {
+  const parsingData = storage.getItem('formData');
+  const outputData = JSON.parse(parsingData);
+  fullname.value = outputData.fullname;
+  email.value = outputData.email;
+  message.value = outputData.message;
+}
+populateForm();
