@@ -129,7 +129,8 @@ nav {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
+  min-height: 80%;
+  width: 80%;
   flex-direction: column;
   align-items: start;
   background-color: white;
@@ -144,6 +145,7 @@ nav {
 
 .pop-card .workimage {
   max-height: 10rem;
+  object-fit: cover;
 }
 
 .pop-head {
@@ -455,6 +457,7 @@ textarea::placeholder {
     align-items: normal;
     padding: 2%;
     z-index: 3;
+    max-height: 90%;
   }
 
   .pop-head h2 {
@@ -472,7 +475,7 @@ textarea::placeholder {
   }
 
   .pop-bottom p {
-    width: 70%;
+    width: 100%;
     margin-top: 4%;
     margin-bottom: 10%;
   }
@@ -488,6 +491,8 @@ textarea::placeholder {
   .pop-bottom {
     display: inline-flex;
     gap: 3%;
+    width: 100%;
+    justify-content: space-between;
   }
 
   .pop-side {
