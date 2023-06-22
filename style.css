@@ -390,7 +390,7 @@ textarea::placeholder {
   color: #b3bac5;
 }
 
-#submit {
+#submitBtn {
   width: 45%;
   margin: 5% 8% 5% 8%;
 }
@@ -671,7 +671,7 @@ textarea::placeholder {
     padding: 2% 3%;
   }
 
-  #submit {
+  #submitBtn {
     align-self: center;
     width: 25%;
     margin: 4% 0 20% 0;
