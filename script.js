@@ -191,3 +191,16 @@ const generateProjects = () => {
 window.onload = () => {
   generateProjects();
 };
+
+const form = document.querySelector('#form');
+const errorMail = document.querySelector('#mail-error');
+const email = document.querySelector('#email');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  errorMail.innerText = '';
+  if (/[a-z]/.test(email.value) && /[A-Z]/.test(email.value)) {
+    errorMail.innerText = 'Please a provide valid lowercase email address';
+  } else {
+    form.submit();
+  }
+});

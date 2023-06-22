@@ -358,7 +358,7 @@ nav {
   margin: 5% 8% 8% 8%;
 }
 
-form {
+#form {
   width: 90%;
   margin: 0%;
   padding: 0%;
@@ -367,8 +367,8 @@ form {
   justify-content: center;
 }
 
-form input,
-form textarea {
+#form input,
+#form textarea {
   font-family: 'Poppins', sans-serif;
   color: #b3bac5;
   font-size: 1rem;
@@ -378,11 +378,19 @@ form textarea {
   border-radius: 10px;
 }
 
+#mail-error {
+  color: white;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  width: 90%;
+}
+
 textarea::placeholder {
   color: #b3bac5;
 }
 
-#submit {
+#submitBtn {
   width: 45%;
   margin: 5% 8% 5% 8%;
 }
@@ -653,17 +661,17 @@ textarea::placeholder {
     margin-top: 10%;
   }
 
-  form {
+  #form {
     width: 40%;
   }
 
-  form input,
-  form textarea {
+  #form input,
+  #form textarea {
     font-size: 1.3rem;
     padding: 2% 3%;
   }
 
-  #submit {
+  #submitBtn {
     align-self: center;
     width: 25%;
     margin: 4% 0 20% 0;
