@@ -129,7 +129,7 @@ nav {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80%;
+  width: 70%;
   flex-direction: column;
   align-items: start;
   background-color: white;
@@ -193,6 +193,7 @@ nav {
 .langs {
   width: 100%;
   display: inline-flex;
+  flex-wrap: wrap;
   padding: 0%;
   margin: 0%;
   gap: 3%;
@@ -206,6 +207,7 @@ nav {
   background-color: #ebebff;
   padding: 1% 5%;
   border-radius: 6px;
+  margin-bottom: 1.5%;
 }
 
 .live-code {
@@ -253,6 +255,7 @@ nav {
   align-items: center;
   width: 43%;
   justify-content: space-around;
+  font-size: 0.8rem;
 }
 
 .sbtn {
@@ -260,6 +263,7 @@ nav {
   align-items: center;
   width: 53%;
   justify-content: space-around;
+  font-size: 0.8rem;
 }
 
 #about {
@@ -473,6 +477,10 @@ textarea::placeholder {
     margin-bottom: 10%;
   }
 
+  .popsubdesc {
+    margin: 1% 0%;
+  }
+
   .pop-card .desc p {
     font-size: 1.2rem;
   }
@@ -484,6 +492,7 @@ textarea::placeholder {
 
   .pop-side {
     margin-top: 4%;
+    width: 30%;
   }
 
   .workimage {
@@ -502,6 +511,8 @@ textarea::placeholder {
 
   .pop-card .deskimg {
     max-height: 30rem;
+    object-fit: cover;
+    min-width: 80%;
   }
 
   .pop-card .deskimg:hover {
@@ -538,6 +549,11 @@ textarea::placeholder {
     font-weight: 500;
   }
 
+  .popsubdesc .descA,
+  .popsubdesc .grey {
+    font-size: 1.1rem;
+  }
+
   .workdesc {
     color: #344563;
     font-size: 1.25rem;
@@ -555,6 +571,11 @@ textarea::placeholder {
     font-size: 1.5rem;
     padding: 2%;
     border-radius: 0.9rem;
+  }
+
+  .lbtn,
+  .sbtn {
+    font-size: 1rem;
   }
 
   #about {
@@ -595,6 +616,10 @@ textarea::placeholder {
   .langlist img {
     width: 3rem;
     height: 3rem;
+  }
+
+  .popsubdesc img {
+    width: 1%;
   }
 
   .langlist li {

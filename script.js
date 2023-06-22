@@ -95,16 +95,16 @@ const projects = [
 ];
 
 const popup = document.querySelector('.overlay');
-const closePopup = document.querySelector('#closebtn');
-const subDesc = document.querySelector('#popsubdesc');
-const workImg = document.querySelector('#popMimg');
-const deskImg = document.querySelector('#popDimg');
-const popupTitle = document.querySelector('#poptitle');
+const closePopup = document.querySelector('.closebtn');
+const subDesc = document.querySelector('.popsubdesc');
+const workImg = document.querySelector('.popMimg');
+const deskImg = document.querySelector('.popDimg');
+const popupTitle = document.querySelector('.poptitle');
 const popupContent = document.querySelector('.pop-work');
-const skillsDiv = document.querySelector('#poplangs');
-const workDesc = document.querySelector('#popdesc');
-const liveBtn = document.querySelector('#livebtn');
-const sourceBtn = document.querySelector('#codebtn');
+const skillsDiv = document.querySelector('.poplangs');
+const workDesc = document.querySelector('.popdesc');
+const liveBtn = document.querySelector('.lbtn');
+const sourceBtn = document.querySelector('.sbtn');
 
 const generatePopup = (index) => {
   skillsDiv.innerHTML = '';
