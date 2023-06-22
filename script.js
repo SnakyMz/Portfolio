@@ -199,7 +199,7 @@ form.addEventListener('submit', (event) => {
   event.preventDefault();
   errorMail.innerText = '';
   if (/[a-z]/.test(email.value) && /[A-Z]/.test(email.value)) {
-    errorMail.innerText = `Please a provide valid lowercase email address`;
+    errorMail.innerText = 'Please a provide valid lowercase email address';
   } else {
     form.submit();
   }
