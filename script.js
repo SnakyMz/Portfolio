@@ -26,79 +26,26 @@ for (let i = 0; i < menus.length; i += 1) {
 // Projects Generation and Popup
 const projects = [
   {
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    mobileImage: './images/Snapshoot Portfolio.svg',
-    desktopImage: './images/Snapshoot Portfolio 1.svg',
+    name: 'Gamecon',
+    description: 'An informative website about a Gaming fair called Gamecon. This website is inspired by Cindy Shin`s CC Global Summit 2015. Built with JavaScript.',
+    image: './images/gamecon.png',
     technologies: [
       'HTML',
       'CSS',
       'JavaScript',
     ],
-    liveVersionLink: '',
-    SourceLink: '',
-    company: 'CANOPY',
-    year: '2015',
-    stack: 'Back End Dev',
-  },
-  {
-    name: 'Post Stories',
-    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    mobileImage: './images/Snapshoot Portfolio (1).svg',
-    desktopImage: './images/Snapshoot Portfolio 2.svg',
-    technologies: [
-      'HTML',
-      'Ruby on Rails',
-      'CSS',
-      'JavaScript',
-    ],
-    liveVersionLink: '',
-    SourceLink: '',
-    company: 'FACEBOOK',
-    year: '2015',
-    stack: 'Full Stack Dev',
-  },
-  {
-    name: 'Facebook 360',
-    description: 'Exploring the future of media in Facebook\'s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    mobileImage: './images/Snapshoot Portfolio (2).svg',
-    desktopImage: './images/Snapshoot Portfolio 3.svg',
-    technologies: [
-      'HTML',
-      'Ruby on Rails',
-      'CSS',
-      'JavaScript',
-    ],
-    liveVersionLink: '',
-    SourceLink: '',
-    company: 'FACEBOOK',
-    year: '2015',
-    stack: 'Full Stack Dev',
-  },
-  {
-    name: 'Uber Navigation',
-    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    mobileImage: './images/Snapshoot Portfolio (3).svg',
-    desktopImage: './images/Snapshoot Portfolio 4.svg',
-    technologies: [
-      'HTML',
-      'Ruby on Rails',
-      'CSS',
-      'JavaScript',
-    ],
-    liveVersionLink: '',
-    SourceLink: '',
-    company: 'Uber',
-    year: '2018',
-    stack: 'Lead Developer',
+    liveVersionLink: 'https://snakymz.github.io/Gamecon/',
+    SourceLink: 'https://github.com/SnakyMz/Gamecon',
+    company: 'Gamecon',
+    year: '2023',
+    stack: 'Front End Dev',
   },
 ];
 
 const popup = document.querySelector('.overlay');
 const closePopup = document.querySelector('.closebtn');
 const subDesc = document.querySelector('.popsubdesc');
-const workImg = document.querySelector('.popMimg');
-const deskImg = document.querySelector('.popDimg');
+const workImg = document.querySelector('.popImg');
 const popupTitle = document.querySelector('.poptitle');
 const popupContent = document.querySelector('.pop-work');
 const skillsDiv = document.querySelector('.poplangs');
@@ -109,8 +56,7 @@ const sourceBtn = document.querySelector('.sbtn');
 const generatePopup = (index) => {
   skillsDiv.innerHTML = '';
   popupTitle.innerText = projects[index].name;
-  workImg.src = projects[index].mobileImage;
-  deskImg.src = projects[index].desktopImage;
+  workImg.src = projects[index].image;
   workDesc.innerText = projects[index].description;
   projects[index].technologies.forEach((skill) => {
     const li = document.createElement('li');
@@ -124,8 +70,12 @@ const generatePopup = (index) => {
   <img src="./images/Counter.svg" alt="counter">
   <p class="grey">${projects[index].year}</p>
   `;
-  liveBtn.href = projects[index].liveVersionLink;
-  sourceBtn.href = projects[index].SourceLink;
+  liveBtn.onclick = () => {
+    window.location.href = `${projects[index].liveVersionLink}`;
+  }
+  sourceBtn.onclick = () => {
+    window.location.href = `${projects[index].SourceLink}`;
+  }
 };
 const windowPop = (index) => {
   popupContent.style.display = 'block';
@@ -149,8 +99,7 @@ const generateProjects = () => {
       works.className = 'works alt';
     }
     works.innerHTML = `
-      <img src="${work.mobileImage}" class="workimage" alt="${work.name}">
-      <img src="${work.desktopImage}" class="deskimg" alt="${work.name}">
+      <img src="${work.image}" class="workimage" alt="${work.name}">
       `;
 
     const worktext = document.createElement('div');
