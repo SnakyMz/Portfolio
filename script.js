@@ -36,7 +36,109 @@ const projects = [
     ],
     liveVersionLink: 'https://snakymz.github.io/Gamecon/',
     SourceLink: 'https://github.com/SnakyMz/Gamecon',
-    company: 'Gamecon',
+    company: 'Freelance',
+    year: '2023',
+    stack: 'Front End Dev',
+  },
+  {
+    name: 'To Do List',
+    description: 'A website to keep track of your daily tasks by allowing users to add, remove or update their tasks. Built with JavaScript.',
+    image: './images/todolist.png',
+    technologies: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+    ],
+    liveVersionLink: 'https://snakymz.github.io/To-Do-List/',
+    SourceLink: 'https://github.com/SnakyMz/To-Do-List',
+    company: 'Freelance',
+    year: '2023',
+    stack: 'Front End Dev',
+  },
+  {
+    name: 'PokeDex',
+    description: 'A website that displays a list of Pokemons by fetching data from the API. The website allows users to like and comment on displayed Pokemon which also uses API to maintain data. Built with JavaScript.',
+    image: './images/pokedex.png',
+    technologies: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'API',
+    ],
+    liveVersionLink: 'https://snakymz.github.io/PokeDex/',
+    SourceLink: 'https://github.com/SnakyMz/PokeDex',
+    company: 'Freelance',
+    year: '2023',
+    stack: 'Front End Dev',
+  },
+  {
+    name: 'Math Magicians',
+    description: 'A website that contains a calculator to perform mathematical operations and a quote section that generates a random quote on load. Built with React.',
+    image: './images/mathmagician.png',
+    technologies: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React',
+      'API',
+    ],
+    liveVersionLink: 'https://math-magicians-7hio.onrender.com/',
+    SourceLink: 'https://github.com/SnakyMz/Math-Magicians',
+    company: 'Freelance',
+    year: '2023',
+    stack: 'Front End Dev',
+  },
+  {
+    name: 'Bookstore',
+    description: 'A website that contains a library of books. You can add or delete a book. Uses bookstore API to communicate with data. Built with React and Redux.',
+    image: './images/bookstore.png',
+    technologies: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React',
+      'Redux',
+      'API',
+    ],
+    liveVersionLink: 'https://bookstore-kn2l.onrender.com/',
+    SourceLink: 'https://github.com/SnakyMz/Bookstore',
+    company: 'Freelance',
+    year: '2023',
+    stack: 'Front End Dev',
+  },
+  {
+    name: 'Space Travellers Hub',
+    description: 'A website that displays rockets and missions from SpaceX. It also allows user to reserve any rocket/mission and displays them in the My Profile section. Built with React and Redux.',
+    image: './images/spacehub.png',
+    technologies: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React',
+      'Redux',
+      'API',
+    ],
+    liveVersionLink: 'https://space-travellers-hub-y40g.onrender.com/',
+    SourceLink: 'https://github.com/SnakyMz/Space-Travellers-Hub',
+    company: 'Freelance',
+    year: '2023',
+    stack: 'Front End Dev',
+  },
+  {
+    name: 'Karnataka Weather',
+    description: 'A website that displays a list of cities. It also displays their respective temperature, weather status, and many more. Built with React and Redux.',
+    image: './images/karnatakaweather.png',
+    technologies: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React',
+      'Redux',
+      'API',
+    ],
+    liveVersionLink: 'https://karnataka-weather.onrender.com/',
+    SourceLink: 'https://github.com/SnakyMz/Karnataka-weather',
+    company: 'Freelance',
     year: '2023',
     stack: 'Front End Dev',
   },
@@ -72,10 +174,10 @@ const generatePopup = (index) => {
   `;
   liveBtn.onclick = () => {
     window.location.href = `${projects[index].liveVersionLink}`;
-  }
+  };
   sourceBtn.onclick = () => {
     window.location.href = `${projects[index].SourceLink}`;
-  }
+  };
 };
 const windowPop = (index) => {
   popupContent.style.display = 'block';
@@ -139,6 +241,11 @@ const generateProjects = () => {
 
 window.onload = () => {
   generateProjects();
+};
+
+const resumeBtn = document.querySelector('#resumeBtn');
+resumeBtn.onclick = () => {
+  window.location.href = 'https://docs.google.com/document/d/1NwLvWyHIA66iw8h29ICGFxuFsKrjA01wvvti6-gBosE/edit?usp=sharing';
 };
 
 const form = document.querySelector('#form');
