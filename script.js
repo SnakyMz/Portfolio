@@ -157,6 +157,21 @@ const projects = [
     year: '2023',
     stack: 'Full Stack Dev',
   },
+  {
+    name: 'Expense App',
+    description: 'Expense App is an transaction tracker app containing data about transactions based on categories. A user can register/login and create transactions to track them. Built with Ruby on Rails.',
+    image: './images/expenseapp.png',
+    technologies: [
+      'HTML',
+      'CSS',
+      'Ruby on Rails',
+    ],
+    liveVersionLink: 'https://expense-app-i6s3.onrender.com/',
+    SourceLink: 'https://github.com/SnakyMz/Expense-app',
+    company: 'Freelance',
+    year: '2023',
+    stack: 'Full Stack Dev',
+  },
 ];
 
 const popup = document.querySelector('.overlay');
