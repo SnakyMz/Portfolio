@@ -142,6 +142,21 @@ const projects = [
     year: '2023',
     stack: 'Front End Dev',
   },
+  {
+    name: 'Recipe App',
+    description: 'Recipe App is a app containing data about foods, recipes, and shopping lists. Built with Ruby on Rails and Tailwind.',
+    image: './images/recipeapp.png',
+    technologies: [
+      'HTML',
+      'Tailwind CSS',
+      'Ruby on Rails',
+    ],
+    liveVersionLink: 'https://recipe-app-t2ko.onrender.com/',
+    SourceLink: 'https://github.com/JavierAybar/Recipe-app',
+    company: 'Freelance',
+    year: '2023',
+    stack: 'Full Stack Dev',
+  },
 ];
 
 const popup = document.querySelector('.overlay');
