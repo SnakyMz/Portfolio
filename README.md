@@ -1,9 +1,5 @@
 <div align="center">
-  <img src="./images/logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Soban's Portfolio</b></h3>
-
+  <img src="./images/logo.png" alt="logo" width="300"  height="auto" />
 </div>
 
 # 📖 Details
@@ -29,7 +25,7 @@
 - **Links to my Projects**
 - **Link to my Resume**
 
-## [Soban's Portfolio Link](https://snakymz.github.io/Portfolio/)
+## Live Link: [Soban's Portfolio](https://snakymz.github.io/Portfolio/)
 
 ## Connect with me
 
