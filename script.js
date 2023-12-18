@@ -172,6 +172,24 @@ const projects = [
     year: '2023',
     stack: 'Full Stack Dev',
   },
+  {
+    name: 'Appoint Wheels',
+    description: 'AppointWheels is a car rental application that allows users to book a car for a specific date and time. Users can create an account and log in to the application. Built with React, Redux and Ruby on Rails.',
+    image: './images/appointwheels.png',
+    technologies: [
+      'HTML',
+      'JavaScript',
+      'React',
+      'Redux',
+      'Tailwind CSS',
+      'Ruby on Rails',
+    ],
+    liveVersionLink: 'https://appointwheels.onrender.com/',
+    SourceLink: 'https://github.com/Rysth/REACT-AppointWheels',
+    company: 'Freelance',
+    year: '2023',
+    stack: 'Full Stack Dev',
+  },
 ];
 
 const popup = document.querySelector('.overlay');
