@@ -23,30 +23,13 @@ header {
 
 #logo {
   text-decoration: none;
-  color: aquamarine;
-}
-
-#about {
-  padding: 10%;
-}
-
-.profile {
-  display: flex;
-  flex-direction: column;
-  border-bottom: 0.2rem solid aquamarine;
-}
-
-.profilePic {
-  box-shadow: 0rem 0rem 1rem aquamarine;
-}
-
-.welcome {
-  padding: 6% 4% 4% 4%;
-  font-size: 1.3rem;
-}
-
-.welcome h1 {
   color: magenta;
-  font-family: 'Keania One', sans-serif;
-  margin-bottom: 3%;
+}
+
+footer {
+  color: magenta;
+  padding: 3% 0 5% 6%;
+  font-size: 1.7rem;
+  border-top: 0.2rem solid aquamarine;
+  box-shadow: 0rem 0rem 1rem aquamarine;
 }
