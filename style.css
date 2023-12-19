@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Audiowide&family=Keania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Keania+One&display=swap');
 
 * {
   padding: 0;
@@ -6,16 +6,47 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+  color: aquamarine;
+  font-family: 'Iceland', sans-serif;
+}
+
 header {
   text-align: center;
   padding: 2%;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: 'Keania One', sans-serif;
   border-bottom: 0.3rem solid aquamarine;
-  background-color: #061F13;
+  box-shadow: 0rem 0rem 1rem aquamarine;
 }
 
 #logo {
   text-decoration: none;
   color: aquamarine;
+}
+
+#about {
+  padding: 10%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.2rem solid aquamarine;
+}
+
+.profilePic {
+  box-shadow: 0rem 0rem 1rem aquamarine;
+}
+
+.welcome {
+  padding: 6% 4% 4% 4%;
+  font-size: 1.3rem;
+}
+
+.welcome h1 {
+  color: magenta;
+  font-family: 'Keania One', sans-serif;
+  margin-bottom: 3%;
 }
