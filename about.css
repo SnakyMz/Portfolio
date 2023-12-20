@@ -1,0 +1,79 @@
+#about {
+  padding: 10% 10% 3% 10%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.2rem solid aquamarine;
+  font-size: 1.3rem;
+}
+
+.profilePic {
+  box-shadow: 0 0 1rem 0.4rem aquamarine;
+}
+
+.welcome {
+  padding: 6% 4% 4% 4%;
+}
+
+.welcome h1 {
+  color: magenta;
+  font-family: 'Keania One', sans-serif;
+  margin-bottom: 3%;
+}
+
+.connect {
+  padding: 4%;
+  border-bottom: 0.2rem solid aquamarine;
+}
+
+.iconList {
+  padding: 4% 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.icons {
+  color: aquamarine;
+  transition: all ease-in-out 0.3s;
+}
+
+.icons:hover {
+  color: magenta;
+  transform: scale(150%);
+}
+
+.mailLink {
+  text-decoration: none;
+  color: aquamarine;
+  font-size: 1.4rem;
+}
+
+.mailLink:hover {
+  color: magenta;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4% 0;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+  background-color: aquamarine;
+  padding: 2% 6%;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: all ease-in-out 0.5s;
+}
+
+.links:hover {
+  background-color: magenta;
+  transform: scale(120%);
+}

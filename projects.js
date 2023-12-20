@@ -1,4 +1,4 @@
-export const projects = [
+const projects = [
   {
     name: 'Gamecon',
     description: 'An informative website about a Gaming fair called Gamecon. This website is inspired by Cindy Shin`s CC Global Summit 2015. Built with JavaScript.',
@@ -165,3 +165,5 @@ export const projects = [
     stack: 'Full Stack Dev',
   },
 ];
+
+export default projects;
