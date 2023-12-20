@@ -26,6 +26,21 @@ header {
   color: magenta;
 }
 
+.links {
+  text-decoration: none;
+  color: black;
+  background-color: aquamarine;
+  padding: 2% 6%;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: all ease-in-out 0.5s;
+}
+
+.links:hover {
+  background-color: magenta;
+  transform: scale(120%);
+}
+
 footer {
   color: magenta;
   padding: 3% 0 5% 6%;
