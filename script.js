@@ -10,7 +10,12 @@ projects.forEach((project) => {
   projectName.className = 'projectName';
   projectName.innerHTML = project.name;
 
+  const projectInfo = document.createElement('h4');
+  projectInfo.className = 'projectInfo';
+  projectInfo.innerHTML = `${project.company} | ${project.year} | ${project.stack}`;
+
   projectCard.appendChild(projectName);
+  projectCard.appendChild(projectInfo);
 
   carousel.appendChild(projectCard);
 });
