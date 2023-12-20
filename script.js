@@ -38,12 +38,12 @@ projects.forEach((project) => {
 
   const projectLive = document.createElement('a');
   projectLive.className = 'links projectLinks';
-  projectLive.innerHTML = `Live&nbsp<i class="bi bi-window-fullscreen"></i>`;
+  projectLive.innerHTML = `Live&nbsp<i class='bi bi-window-fullscreen'></i>`;
   projectLive.href = project.liveVersionLink;
 
   const projectSource = document.createElement('a');
   projectSource.className = 'links projectLinks';
-  projectSource.innerHTML = `Source&nbsp<i class="bi bi-github"></i>`;
+  projectSource.innerHTML = `Source&nbsp<i class='bi bi-github'></i>`;
   projectSource.href = project.SourceLink;
 
   projectLinks.appendChild(projectLive);
