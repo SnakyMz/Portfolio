@@ -34,15 +34,15 @@ projects.forEach((project) => {
   projectDesc.innerHTML = project.description;
 
   const projectLinks = document.createElement('div');
-  projectLinks.className = 'projectLinks';
+  projectLinks.className = 'projectLinkList';
 
   const projectLive = document.createElement('a');
-  projectLive.className = 'projectLinks';
+  projectLive.className = 'links projectLinks';
   projectLive.innerHTML = `Live&nbsp<i class="bi bi-window-fullscreen"></i>`;
   projectLive.href = project.liveVersionLink;
 
   const projectSource = document.createElement('a');
-  projectSource.className = 'projectLinks';
+  projectSource.className = 'links projectLinks';
   projectSource.innerHTML = `Source&nbsp<i class="bi bi-github"></i>`;
   projectSource.href = project.SourceLink;
 

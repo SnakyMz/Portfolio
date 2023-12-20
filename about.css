@@ -6,10 +6,11 @@
   display: flex;
   flex-direction: column;
   border-bottom: 0.2rem solid aquamarine;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .profilePic {
+  width: 100%;
   box-shadow: 0 0 1rem 0.4rem aquamarine;
 }
 
@@ -33,7 +34,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .icons {
@@ -61,19 +62,4 @@
   justify-content: center;
   align-items: center;
   padding: 4% 0;
-}
-
-.links {
-  text-decoration: none;
-  color: black;
-  background-color: aquamarine;
-  padding: 2% 6%;
-  font-weight: bold;
-  font-size: 1.5rem;
-  transition: all ease-in-out 0.5s;
-}
-
-.links:hover {
-  background-color: magenta;
-  transform: scale(120%);
 }
