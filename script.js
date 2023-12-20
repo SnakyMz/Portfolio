@@ -29,10 +29,15 @@ projects.forEach((project) => {
     projectTechList.appendChild(projectTech);
   });
 
+  const projectDesc = document.createElement('p');
+  projectDesc.className = 'projectDesc';
+  projectDesc.innerHTML = project.description;
+
   projectCard.appendChild(projectName);
   projectCard.appendChild(projectInfo);
   projectCard.appendChild(projectImg);
   projectCard.appendChild(projectTechList);
+  projectCard.appendChild(projectDesc);
 
   carousel.appendChild(projectCard);
 });
