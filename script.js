@@ -33,11 +33,28 @@ projects.forEach((project) => {
   projectDesc.className = 'projectDesc';
   projectDesc.innerHTML = project.description;
 
+  const projectLinks = document.createElement('div');
+  projectLinks.className = 'projectLinks';
+
+  const projectLive = document.createElement('a');
+  projectLive.className = 'projectLinks';
+  projectLive.innerHTML = `Live&nbsp<i class="bi bi-window-fullscreen"></i>`;
+  projectLive.href = project.liveVersionLink;
+
+  const projectSource = document.createElement('a');
+  projectSource.className = 'projectLinks';
+  projectSource.innerHTML = `Source&nbsp<i class="bi bi-github"></i>`;
+  projectSource.href = project.SourceLink;
+
+  projectLinks.appendChild(projectLive);
+  projectLinks.appendChild(projectSource);
+
   projectCard.appendChild(projectName);
   projectCard.appendChild(projectInfo);
   projectCard.appendChild(projectImg);
   projectCard.appendChild(projectTechList);
   projectCard.appendChild(projectDesc);
+  projectCard.appendChild(projectLinks);
 
   carousel.appendChild(projectCard);
 });
