@@ -14,8 +14,14 @@ projects.forEach((project) => {
   projectInfo.className = 'projectInfo';
   projectInfo.innerHTML = `${project.company} | ${project.year} | ${project.stack}`;
 
+  const projectImg = document.createElement('img');
+  projectImg.className = 'projectImg';
+  projectImg.src = project.image;
+  projectImg.alt = project.name;
+
   projectCard.appendChild(projectName);
   projectCard.appendChild(projectInfo);
+  projectCard.appendChild(projectImg);
 
   carousel.appendChild(projectCard);
 });
