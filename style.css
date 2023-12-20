@@ -18,7 +18,7 @@ header {
   font-size: 2rem;
   font-family: 'Keania One', sans-serif;
   border-bottom: 0.3rem solid aquamarine;
-  box-shadow: 0rem 0rem 1rem aquamarine;
+  box-shadow: 0 0 1rem aquamarine;
 }
 
 #logo {
@@ -31,5 +31,5 @@ footer {
   padding: 3% 0 5% 6%;
   font-size: 1.7rem;
   border-top: 0.2rem solid aquamarine;
-  box-shadow: 0rem 0rem 1rem aquamarine;
+  box-shadow: 0 0 1rem aquamarine;
 }
