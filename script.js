@@ -19,9 +19,20 @@ projects.forEach((project) => {
   projectImg.src = project.image;
   projectImg.alt = project.name;
 
+  const projectTechList = document.createElement('ul');
+  projectTechList.className = 'projectTechList';
+
+  project.technologies.forEach((tech) => {
+    const projectTech = document.createElement('li');
+    projectTech.className = 'projectTech';
+    projectTech.innerHTML = tech;
+    projectTechList.appendChild(projectTech);
+  });
+
   projectCard.appendChild(projectName);
   projectCard.appendChild(projectInfo);
   projectCard.appendChild(projectImg);
+  projectCard.appendChild(projectTechList);
 
   carousel.appendChild(projectCard);
 });
