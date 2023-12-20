@@ -1,8 +1,16 @@
 import projects from './projects.js';
 
 const carousel = document.getElementById('carousel');
-const carouselHead = document.createElement('h3');
 
-carouselHead.innerHTML = `Number of projects are: ${projects.length}`;
+projects.forEach((project) => {
+  const projectCard = document.createElement('div');
+  projectCard.className = 'projectCard';
 
-carousel.appendChild(carouselHead);
+  const projectName = document.createElement('h2');
+  projectName.className = 'projectName';
+  projectName.innerHTML = project.name;
+
+  projectCard.appendChild(projectName);
+
+  carousel.appendChild(projectCard);
+});
