@@ -12,7 +12,7 @@
 
 .profilePic {
   width: 100%;
-  box-shadow: 0 0 1rem 0.4rem aquamarine;
+  box-shadow: 0 0 1rem 0.4rem black;
 }
 
 .welcome {
@@ -71,7 +71,7 @@
     width: 30%;
     padding: 2%;
     border-right: 0.3rem solid aquamarine;
-    box-shadow: 0 0 1rem aquamarine;
+    box-shadow: 0 0 1rem black;
   }
 
   .profile,
