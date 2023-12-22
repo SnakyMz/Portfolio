@@ -61,6 +61,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2% 4% 1% 4%;
+  padding: 2% 4%;
   font-size: 1.3rem;
+}
+
+@media screen and (min-width: 768px) {
+  #projects {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #projects h2 {
+    font-size: 3rem;
+    padding: 1%;
+  }
+
+  .swipe {
+    display: none;
+  }
+
+  #carousel {
+    padding: 2%;
+  }
+
+  .projectCard,
+  .projectLinks {
+    font-size: 2rem;
+  }
+
+  .projectTech {
+    font-size: 1.5rem;
+  }
 }
