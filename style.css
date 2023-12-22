@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Keania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Iceland&display=swap');
 
 * {
   padding: 0;
@@ -15,8 +15,8 @@ body {
 header {
   text-align: center;
   padding: 2%;
-  font-size: 2rem;
-  font-family: 'Keania One', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
   border-bottom: 0.3rem solid aquamarine;
   box-shadow: 0 0 1rem aquamarine;
 }
@@ -52,7 +52,7 @@ footer {
 @media screen and (min-width: 768px) {
   header {
     padding: 1%;
-    font-size: 2.5rem;
+    font-size: 4.5rem;
   }
 
   main {
@@ -61,6 +61,6 @@ footer {
 
   footer {
     padding: 1% 1% 1% 5%;
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }

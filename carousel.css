@@ -4,7 +4,11 @@
 
 #projects h2 {
   font-size: 2rem;
-  padding: 3% 0;
+  padding: 2% 0;
+}
+
+.projectName {
+  font-family: 'Iceberg', sans-serif;
 }
 
 #carousel {
@@ -65,8 +69,30 @@
   font-size: 1.3rem;
 }
 
+.left {
+  position: absolute;
+  left: 0;
+  padding: 20% 2%;
+  margin-top: 40%;
+  background-color: magenta;
+  border: none;
+  box-shadow: 0 0 1rem magenta;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  padding: 20% 2%;
+  margin-top: 40%;
+  background-color: magenta;
+  border: none;
+  box-shadow: 0 0 1rem magenta;
+}
+
+
 @media screen and (min-width: 768px) {
   #projects {
+    position: relative;
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -87,11 +113,19 @@
   }
 
   .projectCard,
+  .projectName,
   .projectLinks {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .projectTech {
     font-size: 1.5rem;
+  }
+
+  .left,
+  .right {
+    font-size: 2.5rem;
+    margin: 10% 1% 0 1%;
+    padding: 20% 0;
   }
 }

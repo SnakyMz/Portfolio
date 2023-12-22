@@ -2,11 +2,48 @@ import projects from './projects.js';
 
 const carousel = document.getElementById('carousel');
 
+let scrollInterval;
+
+function leftScroll() {
+  scrollInterval = setInterval(() => {
+    carousel.scrollLeft += -50;
+  }, 50);
+}
+
+function rightScroll() {
+  scrollInterval = setInterval(() => {
+    carousel.scrollLeft += 50;
+  }, 50);
+}
+
+function stopScroll() {
+  clearInterval(scrollInterval);
+}
+
+const leftBtn = document.createElement('button');
+leftBtn.type = 'button';
+leftBtn.className = 'left';
+leftBtn.innerHTML = '<i class="bi bi-caret-left-fill"></i>';
+leftBtn.onmousedown = leftScroll;
+leftBtn.onmouseup = stopScroll;
+leftBtn.onmouseleave = stopScroll;
+
+const rightBtn = document.createElement('button');
+rightBtn.type = 'button';
+rightBtn.className = 'right';
+rightBtn.innerHTML = '<i class="bi bi-caret-right-fill"></i>';
+rightBtn.onmousedown = rightScroll;
+rightBtn.onmouseup = stopScroll;
+rightBtn.onmouseleave = stopScroll;
+
+carousel.appendChild(leftBtn);
+carousel.appendChild(rightBtn);
+
 projects.forEach((project) => {
   const projectCard = document.createElement('div');
   projectCard.className = 'projectCard';
 
-  const projectName = document.createElement('h2');
+  const projectName = document.createElement('h3');
   projectName.className = 'projectName';
   projectName.innerHTML = project.name;
 
