@@ -12,6 +12,22 @@ body {
   font-family: 'Iceland', sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: aquamarine;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: magenta;
+}
+
 header {
   text-align: center;
   padding: 2%;
