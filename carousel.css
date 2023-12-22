@@ -75,9 +75,10 @@
   left: 0;
   padding: 20% 2%;
   margin-top: 40%;
-  background-color: magenta;
+  background-color: aquamarine;
   border: none;
-  box-shadow: 0 0 1rem magenta;
+  box-shadow: 0 0 1rem aquamarine;
+  transition: all ease-in-out 0.3s;
 }
 
 .right {
@@ -85,11 +86,17 @@
   right: 0;
   padding: 20% 2%;
   margin-top: 40%;
-  background-color: magenta;
+  background-color: aquamarine;
   border: none;
-  box-shadow: 0 0 1rem magenta;
+  box-shadow: 0 0 1rem aquamarine;
+  transition: all ease-in-out 0.3s;
 }
 
+.left:hover,
+.right:hover {
+  background-color: magenta;
+  box-shadow: 0 0 1rem magenta;
+}
 
 @media screen and (min-width: 768px) {
   #projects {
