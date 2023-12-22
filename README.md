@@ -8,7 +8,7 @@
 
 ## 🛠 Built With
 
-### Tech Stack
+### 🗂️ Tech Stack
 
 <details>
   <summary>Client</summary>
@@ -19,15 +19,15 @@
   </ul>
 </details>
 
-### Key Features
+### ⚙️ Key Features
 
 - **My Introduction**
 - **Links to my Projects**
 - **Link to my Resume**
 
-## Live Link: [Soban's Portfolio](https://snakymz.github.io/Portfolio/)
+## 🗔 Live Link: [Soban's Portfolio](https://snakymz.github.io/Portfolio/)
 
-## Connect with me
+## 📱 Connect with me
 
 - GitHub: [@SnakyMz](https://github.com/SnakyMz)
 - Twitter: [@SobanSyeed](https://twitter.com/SobanSyeed)
