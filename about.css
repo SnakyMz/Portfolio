@@ -74,14 +74,34 @@
     box-shadow: 0 0 1rem aquamarine;
   }
 
+  .profile,
+  .links {
+    font-size: 1.5rem;
+  }
+
+  .mailLink {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mailLink {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
   .welcome h1 {
     font-size: 2.5rem;
   }
 
   .profile,
   .connect,
-  .mailLink,
   .links {
+    font-size: 2rem;
+  }
+
+  .mailLink {
     font-size: 2rem;
   }
 }

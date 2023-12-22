@@ -84,7 +84,7 @@ footer {
 @media screen and (min-width: 768px) {
   header {
     padding: 1%;
-    font-size: 4.5rem;
+    font-size: 3rem;
   }
 
   main {
@@ -93,6 +93,16 @@ footer {
 
   footer {
     padding: 1% 1% 1% 5%;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  header {
+    font-size: 4.5rem;
+  }
+
+  footer {
     font-size: 3rem;
   }
 }
