@@ -7,10 +7,6 @@
   padding: 2% 0;
 }
 
-.projectName {
-  font-family: 'Iceberg', sans-serif;
-}
-
 #carousel {
   display: flex;
   padding: 5%;
@@ -28,6 +24,7 @@
 }
 
 .projectName {
+  font-family: 'Iceberg', sans-serif;
   color: magenta;
   font-size: 2rem;
 }
