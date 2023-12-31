@@ -2,7 +2,7 @@
   <img src="./images/logo.png" alt="logo" width="500"  height="auto" />
 </div>
 
-# 📖 Details
+# 📖 Soban's Portfolio
 
 **Portfolio** is a website designed to showcase my skills and projects.
 
