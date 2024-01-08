@@ -93,6 +93,7 @@
 
 .left:hover,
 .right:hover {
+  cursor: pointer;
   background-color: magenta;
 }
 
