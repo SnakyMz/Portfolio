@@ -25,20 +25,16 @@ leftBtn.type = 'button';
 leftBtn.className = 'left';
 leftBtn.innerHTML = '<i class="bi bi-caret-left-fill"></i>';
 leftBtn.onmousedown = leftScroll;
-leftBtn.ontouchstart = leftScroll;
 leftBtn.onmouseup = stopScroll;
 leftBtn.onmouseleave = stopScroll;
-leftBtn.ontouchend = stopScroll;
 
 const rightBtn = document.createElement('button');
 rightBtn.type = 'button';
 rightBtn.className = 'right';
 rightBtn.innerHTML = '<i class="bi bi-caret-right-fill"></i>';
 rightBtn.onmousedown = rightScroll;
-rightBtn.ontouchstart = rightScroll;
 rightBtn.onmouseup = stopScroll;
 rightBtn.onmouseleave = stopScroll;
-rightBtn.ontouchend = stopScroll;
 
 carousel.appendChild(leftBtn);
 carousel.appendChild(rightBtn);
