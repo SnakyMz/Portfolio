@@ -57,6 +57,17 @@ header {
 #logo {
   text-decoration: none;
   color: magenta;
+  animation: 3s slide-right;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
 }
 
 .links {
