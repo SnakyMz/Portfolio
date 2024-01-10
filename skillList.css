@@ -1,5 +1,6 @@
 .skillList {
   padding: 0 2%;
+  margin-bottom: 1rem;
 }
 
 .skillDiv ul {
@@ -20,10 +21,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .skillList {
-    margin-bottom: 1rem;
-  }
-
   .skillDiv ul {
     margin-left: 2rem;
     width: 100%;
