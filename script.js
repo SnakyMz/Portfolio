@@ -20,16 +20,14 @@ function stopScroll() {
   clearInterval(scrollInterval);
 }
 
-const leftBtn = document.createElement('button');
-leftBtn.type = 'button';
+const leftBtn = document.createElement('span');
 leftBtn.className = 'left';
 leftBtn.innerHTML = '<i class="bi bi-caret-left-fill"></i>';
 leftBtn.onmousedown = leftScroll;
 leftBtn.onmouseup = stopScroll;
 leftBtn.onmouseleave = stopScroll;
 
-const rightBtn = document.createElement('button');
-rightBtn.type = 'button';
+const rightBtn = document.createElement('span');
 rightBtn.className = 'right';
 rightBtn.innerHTML = '<i class="bi bi-caret-right-fill"></i>';
 rightBtn.onmousedown = rightScroll;

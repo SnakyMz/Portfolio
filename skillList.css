@@ -1,0 +1,38 @@
+.skillList {
+  padding: 0 2%;
+}
+
+.skillDiv ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 2% 1%;
+}
+
+.skillDiv li {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1% 3%;
+  color: black;
+  background-color: aquamarine;
+  box-shadow: 0 0 1rem black;
+}
+
+@media screen and (min-width: 768px) {
+  .skillList {
+    margin-bottom: 1rem;
+  }
+
+  .skillDiv ul {
+    margin-left: 2rem;
+    width: 100%;
+    padding: 1% 0.5%;
+    gap: 2rem;
+  }
+
+  .skillDiv li {
+    font-size: 1.5rem;
+    padding: 0.5% 1.5%;
+  }
+}

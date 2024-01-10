@@ -114,6 +114,7 @@
     margin: 10% 1% 0 1%;
     padding: 20% 0;
     background-color: aquamarine;
+    color: black;
     border: none;
     box-shadow: 0 0 1rem black;
     transition: all ease-in-out 0.3s;
@@ -127,6 +128,7 @@
     margin: 10% 1% 0 1%;
     padding: 20% 0;
     background-color: aquamarine;
+    color: black;
     border: none;
     box-shadow: 0 0 1rem black;
     transition: all ease-in-out 0.3s;
