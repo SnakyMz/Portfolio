@@ -3,6 +3,10 @@
   margin-bottom: 1rem;
 }
 
+.skillDiv h5 {
+  font-family: 'Iceberg', sans-serif;
+}
+
 .skillDiv ul {
   list-style: none;
   display: flex;
@@ -29,7 +33,7 @@
   }
 
   .skillDiv li {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding: 0.5% 1.5%;
   }
 }
