@@ -73,11 +73,13 @@ projects.forEach((project) => {
 
   const projectLive = document.createElement('a');
   projectLive.className = 'links projectLinks';
+  projectLive.target = '_blank';
   projectLive.innerHTML = 'Live&nbsp<i class="bi bi-window-fullscreen"></i>';
   projectLive.href = project.liveVersionLink;
 
   const projectSource = document.createElement('a');
   projectSource.className = 'links projectLinks';
+  projectSource.target = '_blank';
   projectSource.innerHTML = 'Source&nbsp<i class="bi bi-github"></i>';
   projectSource.href = project.SourceLink;
 

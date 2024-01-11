@@ -1,6 +1,9 @@
-.skillList {
-  padding: 0 2%;
-  margin-bottom: 1rem;
+#skillList {
+  padding: 2% 6%;
+  color: magenta;
+  border-top: 0.5rem solid aquamarine;
+  border-bottom: 0.5rem solid aquamarine;
+  box-shadow: 0 0 1rem black;
 }
 
 .skillDiv h5 {
@@ -25,6 +28,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  #skillList {
+    padding: 2%;
+    grid-column: span 2;
+  }
+
   .skillDiv ul {
     margin-left: 2rem;
     width: 100%;
