@@ -1,5 +1,19 @@
 import projects from './projects.js';
 
+const navBtn = document.querySelector('.navBtn');
+const mobileNav = document.getElementById('mobileNav');
+
+navBtn.addEventListener('click', () => {
+  if (mobileNav.style.display === 'block') {
+    navBtn.innerHTML = '<i class="bi bi-list"></i>';
+    mobileNav.style.display = 'none';
+  }
+  else {
+    navBtn.innerHTML = '<i class="bi bi-x-circle"></i>';
+    mobileNav.style.display = 'block';
+  }
+});
+
 const carousel = document.getElementById('carousel');
 
 let scrollInterval;
