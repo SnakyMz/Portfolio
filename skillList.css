@@ -6,6 +6,10 @@
   box-shadow: 0 0 1rem black;
 }
 
+#skillList h2 {
+  margin-bottom: 1rem;
+}
+
 .skillDiv h5 {
   font-family: 'Iceberg', sans-serif;
 }
@@ -29,8 +33,13 @@
 
 @media screen and (min-width: 768px) {
   #skillList {
+    font-size: 1.7rem;
     padding: 2%;
     grid-column: span 2;
+  }
+
+  #skillList h2 {
+    font-size: 2rem;
   }
 
   .skillDiv ul {

@@ -50,8 +50,7 @@ header {
   position: fixed;
   min-height: 4rem;
   width: 100%;
-  text-align: center;
-  padding: 2%;
+  padding: 2% 2% 2% 5%;
   font-size: 2.5rem;
   font-weight: bold;
   border-bottom: 0.3rem solid aquamarine;
@@ -67,6 +66,7 @@ nav {
 
 #mobileNav {
   width: 100%;
+  text-align: center;
 }
 
 .navBtn {
