@@ -7,8 +7,7 @@ navBtn.addEventListener('click', () => {
   if (mobileNav.style.display === 'block') {
     navBtn.innerHTML = '<i class="bi bi-list"></i>';
     mobileNav.style.display = 'none';
-  }
-  else {
+  } else {
     navBtn.innerHTML = '<i class="bi bi-x-circle"></i>';
     mobileNav.style.display = 'block';
   }
@@ -88,12 +87,14 @@ projects.forEach((project) => {
   const projectLive = document.createElement('a');
   projectLive.className = 'links projectLinks';
   projectLive.target = '_blank';
+  projectLive.rel = 'noopener';
   projectLive.innerHTML = 'Live&nbsp<i class="bi bi-window-fullscreen"></i>';
   projectLive.href = project.liveVersionLink;
 
   const projectSource = document.createElement('a');
   projectSource.className = 'links projectLinks';
   projectSource.target = '_blank';
+  projectSource.rel = 'noopener';
   projectSource.innerHTML = 'Source&nbsp<i class="bi bi-github"></i>';
   projectSource.href = project.SourceLink;
 
