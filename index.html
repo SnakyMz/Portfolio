@@ -10,12 +10,25 @@
   <link rel="stylesheet" href="./about.css">
   <link rel="stylesheet" href="./carousel.css">
   <link rel="stylesheet" href="./skillList.css">
+  <link rel="stylesheet" href="./form.css">
   <title>Portfolio</title>
 </head>
 
 <body>
   <header>
     <a id="logo" href="#">SNAKY CODES</a>
+    <span class="navBtn"><i class="bi bi-list"></i></span>
+    <nav id="mobileNav">
+      <a href="#about" class="navLinks">About</a><br>
+      <a href="#projects" class="navLinks">Projects</a><br>
+      <a href="#skillList" class="navLinks">Skills</a><br>
+      <a href="#contact" class="navLinks">Contact</a><br>
+    </nav>
+    <nav id="desktopNav">
+      <a href="#projects" class="navLinks">Projects</a>
+      <a href="#skillList" class="navLinks">Skills</a>
+      <a href="#contact" class="navLinks">Contact</a>
+    </nav>
   </header>
 
   <main>
@@ -31,30 +44,28 @@
       <div class="connect">
         <h2>Let's Connect</h2>
         <div class="iconList">
-          <a href="https://github.com/SnakyMz" class="icons"><i class="bi bi-github"></i></a>
-          <a href="https://www.linkedin.com/in/soban-syeed/" class="icons"><i class="bi bi-linkedin"></i></a>
-          <a href="https://medium.com/@soban.syeed" class="icons"><i class="bi bi-medium"></i></a>
-          <a href="https://twitter.com/SobanSyeed" class="icons"><i class="bi bi-twitter-x"></i></a>
+          <a href="https://github.com/SnakyMz" target="_blank" rel="noopener" class="icons"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/soban-syeed/" rel="noopener" target="_blank" class="icons"><i class="bi bi-linkedin"></i></a>
+          <a href="https://medium.com/@soban.syeed" target="_blank" rel="noopener" class="icons"><i class="bi bi-medium"></i></a>
+          <a href="https://twitter.com/SobanSyeed" target="_blank" rel="noopener" class="icons"><i class="bi bi-twitter-x"></i></a>
         </div>
         <a href="mailto:Soban.syeed@outlook.com" class="mailLink">Soban.syeed@outlook.com</a>
       </div>
 
       <div class="resume">
-        <a href="https://docs.google.com/document/d/1NwLvWyHIA66iw8h29ICGFxuFsKrjA01wvvti6-gBosE" class="links">Check my resume</i></a>
+        <a href="https://docs.google.com/document/d/1NwLvWyHIA66iw8h29ICGFxuFsKrjA01wvvti6-gBosE" target="_blank" rel="noopener" class="links">Check my resume</i></a>
       </div>
     </section>
 
     <section id="projects">
       <h2>My Projects</h2>
       <p class="swipeSpam">Swipe for more</p>
+      <p class="slideSpam">Slide for more</p>
       <section id="carousel"></section>
     </section>
 
-  </main>
-  
-  
-  <footer>
-    <section class="skillList">
+    <section id="skillList">
+      <h2>My Skills</h2>
       <div class="skillDiv">
         <h5>Languages:</h5>
         <ul>
@@ -91,6 +102,21 @@
         </ul>
       </div>
     </section>
+
+    <section id="contact">
+      <h2>Contact me</h2>
+      <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it!</p>
+      <form action="https://formspree.io/f/mayzgpbp" method="post">
+        <input type="text" id="formName" name="name" placeholder="Name" aria-label="Name" required>
+        <input type="email" id="formEmail" name="email" placeholder="Email" aria-label="Email" required>
+        <textarea id="formMessage" name="message" placeholder="Message" cols="30" rows="10" required></textarea>
+        <button type="submit" class="links formSubmit">Get in Touch</button>
+      </form>
+    </section>
+  </main>
+  
+  
+  <footer>
     <h6>&COPY; Soban Syeed</h6>
   </footer>
 

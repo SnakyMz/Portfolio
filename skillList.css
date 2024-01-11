@@ -1,5 +1,14 @@
-.skillList {
-  padding: 0 2%;
+#skillList {
+  padding: 2% 6%;
+  color: magenta;
+  border-top: 0.5rem solid aquamarine;
+  border-bottom: 0.5rem solid aquamarine;
+  box-shadow: 0 0 1rem black;
+}
+
+#skillList h2 {
+  font-family: 'Iceberg', sans-serif;
+  text-align: center;
   margin-bottom: 1rem;
 }
 
@@ -25,6 +34,16 @@
 }
 
 @media screen and (min-width: 768px) {
+  #skillList {
+    font-size: 1.7rem;
+    padding: 2%;
+    grid-column: span 2;
+  }
+
+  #skillList h2 {
+    font-size: 2rem;
+  }
+
   .skillDiv ul {
     margin-left: 2rem;
     width: 100%;
