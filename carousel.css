@@ -80,6 +80,7 @@
 
 @media screen and (min-width: 768px) {
   #projects {
+    width: 70%;
     position: relative;
     display: flex;
     flex-direction: column;
