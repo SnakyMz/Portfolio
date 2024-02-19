@@ -11,7 +11,7 @@ const projects = [
       'Tailwind CSS',
       'Ruby on Rails',
     ],
-    liveVersionLink: 'https://appointwheels.onrender.com/',
+    liveVersionLink: 'https://react-appointwheels.fly.dev/',
     SourceLink: 'https://github.com/Rysth/REACT-AppointWheels',
     company: 'Freelance',
     year: '2023',
