@@ -77,16 +77,17 @@ projects.forEach((project) => {
   projectLive.rel = 'noopener';
   projectLive.innerHTML = 'Live&nbsp<i class="bi bi-window-fullscreen"></i>';
   projectLive.href = project.liveVersionLink;
-
-  const projectSource = document.createElement('a');
-  projectSource.className = 'links projectLinks';
-  projectSource.target = '_blank';
-  projectSource.rel = 'noopener';
-  projectSource.innerHTML = 'Source&nbsp<i class="bi bi-github"></i>';
-  projectSource.href = project.SourceLink;
-
   projectLinks.appendChild(projectLive);
-  projectLinks.appendChild(projectSource);
+
+  if(project.SourceLink !== null) {
+    const projectSource = document.createElement('a');
+    projectSource.className = 'links projectLinks';
+    projectSource.target = '_blank';
+    projectSource.rel = 'noopener';
+    projectSource.innerHTML = 'Source&nbsp<i class="bi bi-github"></i>';
+    projectSource.href = project.SourceLink;
+    projectLinks.appendChild(projectSource);
+  }
 
   projectCard.appendChild(projectName);
   projectCard.appendChild(projectInfo);
