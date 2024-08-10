@@ -79,7 +79,7 @@ projects.forEach((project) => {
   projectLive.href = project.liveVersionLink;
   projectLinks.appendChild(projectLive);
 
-  if(project.SourceLink !== null) {
+  if (project.SourceLink !== null) {
     const projectSource = document.createElement('a');
     projectSource.className = 'links projectLinks';
     projectSource.target = '_blank';
