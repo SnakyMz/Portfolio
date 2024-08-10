@@ -30,7 +30,7 @@
 ## 📱 Connect with me
 
 - GitHub: [@SnakyMz](https://github.com/SnakyMz)
-- Twitter: [@SobanSyeed](https://twitter.com/SobanSyeed)
+- Instagram: [@SobanMz](https://instagram.com/SobanMz)
 - LinkedIn: [Soban Syeed](https://www.linkedin.com/in/soban-syeed/)
 
 ## 📝 License

@@ -1,5 +1,21 @@
 const projects = [
   {
+    name: 'Sampler',
+    description: 'My first Unity project made while learning the Unity Essentials pathway. It contains 2D gameplay and 3D gameplay of controlling a car while moving around in a living room with it. Built with Unity and C#.',
+    image: './images/sampler.png',
+    technologies: [
+      'C#',
+      'Unity',
+      '3D',
+      '2D',
+    ],
+    liveVersionLink: 'https://play.unity.com/en/games/758a6f00-02b1-47b7-bd3a-5dd03376ecb2/sampler',
+    SourceLink: null,
+    company: 'Freelance',
+    year: '2024',
+    stack: 'Unity Game Dev',
+  },
+  {
     name: 'Appoint Wheels',
     description: 'AppointWheels is a car rental application that allows users to book a car for a specific date and time. Users can create an account and log in to the application. Built with React, Redux and Ruby on Rails.',
     image: './images/appointwheels.png',
