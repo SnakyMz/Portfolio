@@ -15,6 +15,21 @@ const projects = [
         stack: 'Unity Game Dev',
     },
     {
+        name: 'Rolling Falls',
+        description: 'It is a marbles game where you tackle enemy marbles to make them fall and avoid falling yourself. Made while learning Unity Junior Programmer Pathway. Built with Unity and C#.',
+        image: './images/rollingfalls.png',
+        technologies: [
+            'C#',
+            'Unity',
+            '3D',
+        ],
+        liveVersionLink: 'https://play.unity.com/en/games/e4289ee3-72c7-4377-b244-e7b5e8682330/rolling-falls',
+        SourceLink: 'https://github.com/SnakyMz/Game-Prototype-3',
+        company: 'Freelance',
+        year: '2024',
+        stack: 'Unity Game Dev',
+    },
+    {
         name: 'City Jumper',
         description: 'It is a game where you avoid obstacles in an endless run. Made while learning Unity Junior Programmer Pathway. Built with Unity and C#.',
         image: './images/cityjumper.png',
