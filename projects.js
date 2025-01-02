@@ -15,6 +15,21 @@ const projects = [
         stack: 'Unity Game Dev',
     },
     {
+        name: 'City Jumper',
+        description: 'It is a game where you avoid obstacles in an endless run. Made while learning Unity Junior Programmer Pathway. Built with Unity and C#.',
+        image: './images/cityjumper.png',
+        technologies: [
+            'C#',
+            'Unity',
+            '3D',
+        ],
+        liveVersionLink: 'https://play.unity.com/en/games/6ecd4c4c-28ca-4c82-b29e-c83b6b933a68/city-jumper',
+        SourceLink: 'https://github.com/SnakyMz/Game-Prototype-3',
+        company: 'Freelance',
+        year: '2024',
+        stack: 'Unity Game Dev',
+    },
+    {
         name: 'Cookie Feeder',
         description: 'It is a game where you throw cookies at wild animals and feed them. Made while learning the Unity Junior Programmer Pathway. Built with Unity and C#.',
         image: './images/cookiefeeder.png',
