@@ -1,20 +1,5 @@
 const projects = [
     {
-        name: 'Brick Ball',
-        description: 'It is a 2D Ping pong- like game with a high score saver.Made while learning Unity Junior Programmer Pathway. Built with Unity and C#.',
-        image: './images/brickball.png',
-        technologies: [
-            'C#',
-            'Unity',
-            '2D',
-        ],
-        liveVersionLink: 'https://play.unity.com/en/games/50b73389-4875-429d-8a5a-47c710d0e636/brick-ball',
-        SourceLink: 'https://github.com/SnakyMz/Data-Persistence-Project',
-        company: 'Freelance',
-        year: '2024',
-        stack: 'Unity Game Dev',
-    },
-    {
         name: 'Fruit Collector',
         description: 'It is a game in which a farmer collects fruits falling from the sky. It was made while learning the Junior Programmer Pathway. Built with Unity and C#.',
         image: './images/fruitcollector.png',
@@ -25,6 +10,21 @@ const projects = [
         ],
         liveVersionLink: 'https://play.unity.com/en/games/4069370b-b5ab-435c-bc65-9b2be53aa789/fruit-collector',
         SourceLink: null,
+        company: 'Freelance',
+        year: '2024',
+        stack: 'Unity Game Dev',
+    },
+    {
+        name: 'Cookie Feeder',
+        description: 'It is a game where you throw cookies at wild animals and feed them. Made while learning the Unity Junior Programmer Pathway. Built with Unity and C#.',
+        image: './images/cookiefeeder.png',
+        technologies: [
+            'C#',
+            'Unity',
+            '3D',
+        ],
+        liveVersionLink: 'https://play.unity.com/en/games/54132f5c-aa67-46ea-ba60-f8662a17aff2/cookie-feeder',
+        SourceLink: 'https://github.com/SnakyMz/Game-Prototype-2',
         company: 'Freelance',
         year: '2024',
         stack: 'Unity Game Dev',
