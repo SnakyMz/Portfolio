@@ -105,52 +105,6 @@ const projects = [
         year: '2024',
         stack: 'Unity Game Dev',
     },
-    {
-        name: 'PokeDex',
-        description: 'A website that displays a list of Pokemons by fetching data from the API. The website allows users to like and comment on displayed Pokemon which also uses API to maintain data. Built with JavaScript.',
-        image: './images/pokedex.png',
-        technologies: [
-            'HTML',
-            'CSS',
-            'JavaScript',
-            'API',
-        ],
-        liveVersionLink: 'https://snakymz.github.io/PokeDex/',
-        SourceLink: 'https://github.com/SnakyMz/PokeDex',
-        company: 'Freelance',
-        year: '2023',
-        stack: 'Front End Dev',
-    },
-    {
-        name: 'To Do List',
-        description: 'A website to keep track of your daily tasks by allowing users to add, remove or update their tasks. Built with JavaScript.',
-        image: './images/todolist.png',
-        technologies: [
-            'HTML',
-            'CSS',
-            'JavaScript',
-        ],
-        liveVersionLink: 'https://snakymz.github.io/To-Do-List/',
-        SourceLink: 'https://github.com/SnakyMz/To-Do-List',
-        company: 'Freelance',
-        year: '2023',
-        stack: 'Front End Dev',
-    },
-    {
-        name: 'Gamecon',
-        description: 'An informative website about a Gaming fair called Gamecon. This website is inspired by Cindy Shin`s CC Global Summit 2015. Built with JavaScript.',
-        image: './images/gamecon.png',
-        technologies: [
-            'HTML',
-            'CSS',
-            'JavaScript',
-        ],
-        liveVersionLink: 'https://snakymz.github.io/Gamecon/',
-        SourceLink: 'https://github.com/SnakyMz/Gamecon',
-        company: 'Freelance',
-        year: '2023',
-        stack: 'Front End Dev',
-    },
 ];
 
 export default projects;
