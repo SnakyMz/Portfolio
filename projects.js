@@ -1,5 +1,20 @@
 const projects = [
     {
+        name: 'Obstacle Dodge',
+        description: 'A game where you avoid obstacles and reach the end destination. Built with Unity and C#.',
+        image: './images/obstacledodge.png',
+        technologies: [
+            'C#',
+            'Unity',
+            '3D',
+        ],
+        liveVersionLink: 'https://play.unity.com/en/games/bb2e36ee-402f-4c4f-9f37-40cbbaaf524b/obstacle-dodge',
+        SourceLink: 'https://github.com/SnakyMz/Obstacle-Dodge',
+        company: 'Freelance',
+        year: '2025',
+        stack: 'Unity Game Dev',
+    },
+    {
         name: 'Fruit Collector',
         description: 'It is a game in which a farmer collects fruits falling from the sky. It was made while learning the Junior Programmer Pathway. Built with Unity and C#.',
         image: './images/fruitcollector.png',
