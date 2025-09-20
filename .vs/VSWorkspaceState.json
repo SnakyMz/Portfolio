@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\images"
+    "\\images",
+    "\\pdfs"
   ],
-  "SelectedNode": "\\images\\cityjumper.png",
+  "SelectedNode": "\\style.css",
   "PreviewInSolutionExplorer": false
 }
