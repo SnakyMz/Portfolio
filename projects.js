@@ -1,7 +1,7 @@
 const projects = [
     {
         name: 'Ufo Dash',
-        description: 'An Endless runner mobile game.\n Led a remote team of Unity developers, overseeing task delegation, technical guidance, and quality assurance. Developed core gameplay systems, UI/UX features, level layouts & prototypes. Integrated animations, sound, and artist delivered assets into functional builds. Maintained build documentation and coordinated QA testing.',
+        description: 'An Endless runner mobile game. Led a remote team of Unity developers, overseeing task delegation, technical guidance, and quality assurance. Developed core gameplay systems, UI/UX features, level layouts & prototypes. Integrated animations, sound, and artist delivered assets into functional builds. Maintained build documentation and coordinated QA testing.',
         image: './images/ufodash.png',
         technologies: [
             'C#',
@@ -16,7 +16,7 @@ const projects = [
     },
     {
         name: 'Sharp Shooter',
-        description: 'A First Person Shooting game where you shoot and avoid being hit robots.\n Solely Developed this game.',
+        description: 'A First Person Shooting game where you shoot and avoid being hit robots. It was made while learning GameDev.tv 3D Unity course.',
         image: './images/sharpshooter.png',
         technologies: [
             'C#',
@@ -31,7 +31,7 @@ const projects = [
     },
     {
         name: 'Royal Run',
-        description: 'A Game where you control a running king to collect coins and avoid obstacles within time limit.\n Solely Developed this game.',
+        description: 'A Game where you control a running king to collect coins and avoid obstacles within time limit. It was made while learning GameDev.tv 3D Unity course.',
         image: './images/royalrun.png',
         technologies: [
             'C#',
@@ -46,7 +46,7 @@ const projects = [
     },
     {
         name: 'Galaxy Strike',
-        description: 'A game where you steer a spaceship and shoot the enemy spaceships while avoiding being hit by them.\n Solely Developed this game.',
+        description: 'A game where you steer a spaceship and shoot the enemy spaceships while avoiding being hit by them. It was made while learning GameDev.tv 3D Unity course.',
         image: './images/galaxystrike.png',
         technologies: [
             'C#',
@@ -61,7 +61,7 @@ const projects = [
     },
     {
         name: 'Rocket Boost',
-        description: 'A game where you steer a Rocket from launch pad to landing pad while avoiding obstacles.\n Solely Developed this game.',
+        description: 'A game where you steer a Rocket from launch pad to landing pad while avoiding obstacles. It was made while learning GameDev.tv 3D Unity course.',
         image: './images/rocketboost.png',
         technologies: [
             'C#',
@@ -76,7 +76,7 @@ const projects = [
     },
     {
         name: 'Obstacle Dodge',
-        description: 'A game where you avoid obstacles and reach the end destination.\n Solely Developed this game.',
+        description: 'A game where you avoid obstacles and reach the end destination. It was made while learning GameDev.tv 3D Unity course.',
         image: './images/obstacledodge.png',
         technologies: [
             'C#',
